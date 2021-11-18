@@ -1,0 +1,211 @@
+.Minting .Minting-main,
+.Minting .Minting-main-mobile {
+    background-image: linear-gradient(#1a1738, #16132e);
+    padding: 10%;
+}
+
+.Minting .Mintingwave img{
+    width: 100%;
+}
+
+.Minting .Minting-main .card {
+    background: #6128bf;
+    transform: rotate(-2deg);
+    width: 100% !important;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.Minting .Minting-main-mobile .card {
+    background: #6128bf;
+    width: 100% !important;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.Minting .Minting-main .card .card-body {
+    transform: rotate(2deg);
+    padding: 8%;
+}
+
+.Minting .Minting-main-mobile .card .card-body {
+    padding: 8%;
+}
+
+.Minting .Minting-main .card .card-body .card-subtitle,
+.Minting .Minting-main-mobile .card .card-body .card-subtitle {
+    color: white !important;
+    font-weight: 900;
+}
+
+.Minting .Minting-main .card .card-body .card-title {
+    color: #49ebc4 !important;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.Minting .Minting-main-mobile .card .card-body .card-title {
+    color: #49ebc4 !important;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.Minting .Minting-main .card .card-body .card-text,
+.Minting .Minting-main-mobile .card .card-body .card-text {
+    color: white !important;
+    font-size: 13px;
+}
+
+.Minting .Minting-main .card .card-body .progress {
+    width: 60%;
+    margin: auto;
+    background: #6128bf;
+    border: 1px solid white;
+    height: 2.5rem;
+    border-radius: 50px;
+}
+
+.Minting .Minting-main-mobile .card .card-body .progress {
+    width: 100%;
+    margin: auto;
+    background: #6128bf;
+    border: 1px solid white;
+    height: 2.5rem;
+    border-radius: 50px;
+}
+
+.Minting .Minting-main .card .card-body .progress .progress-bar,
+.Minting .Minting-main-mobile .card .card-body .progress .progress-bar {
+    font-size: large;
+    background: #6128bf;
+}
+
+.Minting .Minting-main .Minting-stepper  button,
+.Minting .Minting-main-mobile .Minting-stepper  button {
+    background: none;
+    border: none;
+    padding: 3px;
+}
+
+.Minting .Minting-main .Minting-stepper  button img,
+.Minting .Minting-main-mobile .Minting-stepper  button img {
+    width: 100%;
+}
+
+.Minting .Minting-main .Minting-stepper {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    align-items: end;
+    background: #4D2099;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Minting .Minting-main-mobile .Minting-stepper {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    align-items: end;
+    background: #4D2099;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Minting .Minting-main .Minting-stepper p,
+.Minting .Minting-main-mobile .Minting-stepper p{
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+
+.Minting .Minting-main .Minting-body p,
+.Minting .Minting-main .Minting-body h5,
+.Minting .Minting-main-mobile .Minting-body p,
+.Minting .Minting-main-mobile .Minting-body h5 {
+    color: white;
+    font-size: 16px;
+}
+
+.Minting .Minting-main .Minting-body h5,
+.Minting .Minting-main-mobile .Minting-body h5{   
+    font-weight: 900;
+}
+
+.Minting .Minting-main .MintBtn button:first-child,
+.Minting .Minting-main-mobile .MintBtn button:first-child {
+    background:#49EBC4;
+}
+.Minting .Minting-main .MintBtn button:last-child:hover,
+.Minting .Minting-main .MintBtn button:first-child:hover {
+    background:white;
+    color: white;
+    text-shadow: -1px 0 #f13b38, 0 1px #f13b38, 1px 0 #f13b38, 0 -1px #f13b38;
+    box-shadow: inset 0 0 10px 10px #f13b38;
+
+}
+
+
+.Minting .Minting-main .MintBtn button:last-child,
+.Minting .Minting-main-mobile .MintBtn button:last-child {
+    background:#F13B38;
+}
+
+.Minting .Minting-main .MintBtn button {
+    width: 20%;
+    font-size: 14px;
+    font-weight: 900;
+    color: white;
+    padding: 1%;
+    border-radius: 50px;
+    border: none;
+    margin: 0 2%;
+}
+
+.Minting .Minting-main-mobile .MintBtn button {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 900;
+    color: white;
+    padding: 1%;
+    border-radius: 50px;
+    border: none;
+    margin: 1% 2%;
+}
+
+.Minting .Minting-main .bottom-label {
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    margin: 5% 0 0 0;
+}
+
+.Minting .Minting-main-mobile .bottom-label{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin: 5% 0 0 0;
+}
+
+.Minting .Minting-main .bottom-label span,
+.Minting .Minting-main-mobile .bottom-label span {
+    color: #49ebc4;
+}
+
+@media screen and (max-width: 991px) {
+    .Minting-main {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .Minting-main-mobile {
+      display: none;
+    }
+}
+
+

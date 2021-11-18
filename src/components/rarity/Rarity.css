@@ -1,0 +1,387 @@
+.Rarity .Raritywave img{
+    width: 100%;
+}
+
+.Rarity .Rarity-main {
+    background-image: linear-gradient(#171431, #16132e);
+    text-align: left;
+    padding: 5% 0;
+}
+
+.Rarity .Rarity-main .Section-title h5{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.Rarity .Rarity-mobile .Section-title h5{
+    color: white;
+    text-align: left;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.Rarity .Rarity-main .Section-title h3{
+    font-weight: 900;
+    text-align: center;
+    font-size: 40px;
+    color: #49EBC4;
+}
+
+.Rarity .Rarity-mobile .Section-title h3{
+    font-weight: 900;
+    text-align: left;
+    font-size: 40px;
+    color: #49EBC4;
+}
+
+.Rarity .Rarity-main .Section-title p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Rarity .Rarity-mobile .Section-title p{
+    color: white;
+    font-size: 16px;
+    text-align: left;
+}
+
+.Rarity .Rarity-main .Section-body .Islandbtns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Rarity .Rarity-main .Section-body button {
+    padding: 0.5% 2%;
+    margin: 0.5%;
+    background: #2D1A5D;
+    border: none;
+    border-radius: 50px;
+    width: 15%;
+    color: white;
+    font-weight: 900;    
+}
+
+.Rarity .Rarity-mobile .Section-body button {
+    padding: 2.5% 2%;
+    margin: 0.5%;
+    background: #2D1A5D;
+    border: none;
+    border-radius: 50px;
+    width: 48%;
+    color: white;
+    font-weight: 900;    
+    font-size: 14px;
+}
+
+.Rarity .Rarity-mobile .Section-body button:focus,
+.Rarity .Rarity-mobile .Section-body button:active {
+    padding: 2.5% 2%;
+    margin: 0.5%;
+    background: #6128BF;
+    border: none;
+    border-radius: 50px;
+    width: 48%;
+    color: white;
+    font-weight: 900; 
+    font-size: 14px;
+}
+
+.Rarity .Rarity-main .Section-body button:hover,
+.Rarity .Rarity-main .Section-body button:active,
+.Rarity .Rarity-main .Section-body button:focus {
+    padding: 0.5% 2%;
+    margin: 0.5%;
+    background: #6128BF;
+    border: none;
+    border-radius: 50px;
+    width: 15%;
+    color: white;
+    font-weight: 900;    
+}
+
+.Rarity .Rarity-main .Section-body .AvatarCards,
+.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body,
+.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Rarity .Rarity-main .Section-body .AvatarCards {
+    margin-top: 50px;
+}
+
+.Rarity .Rarity-mobile .Section-body .AvatarCards {
+    margin-top: 20px;
+}
+
+.Rarity .Rarity-mobile .Section-body .AvatarCards .AvatarCard {
+    margin: auto;
+}
+
+.Rarity .Rarity-main .Section-body .AvatarCards:last-child {
+    margin-top: 10px;
+}
+
+.Rarity .Rarity-main .Section-body .AvatarCard,
+.Rarity .Rarity-mobile .Section-body .AvatarCard {
+    border-radius: 2.25rem;
+}
+
+.Rarity .Rarity-mobile .Section-body .AvatarCards .AvatarCard {
+    margin-bottom: 10px;
+}
+
+.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .card,
+.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .card {
+    border: none;
+    width: 90%;
+}
+
+.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .card-body,
+.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .card-body {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: #16132f;
+    background: #E7E7E9;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .card-footer {
+    font-size: 14px;
+    font-weight: 800;
+    color: white;
+    background: #16132e;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .card-footer {
+    font-size: 14px;
+    font-weight: 800;
+    color: white;
+    background: #16132e;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .small-card {
+    width: 40%;
+}
+
+.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .avatar-property,
+.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .avatar-property {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .avatar-property h6,
+.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .avatar-property h6 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .avatar-property svg,
+.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .avatar-property svg {
+    margin-right: 10px;
+}
+
+.Rarity .Rarity-main hr,
+.Rarity .Rarity-mobile hr {
+    height: 2px;
+    margin: 10% 0;
+    background: white;
+}
+
+.Rarity .Rarity-main .Chart-section {
+    position: relative;
+}
+
+.Rarity .Rarity-main .Chart-section img,
+.Rarity .Rarity-mobile .Chart-section img {
+    width: 100%;
+}
+
+.Rarity .Rarity-main .Chart-section .Chart-section-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+}
+
+.Rarity .Rarity-main .Chart-section .Chart-section-title h3 {
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+
+.Rarity .Rarity-mobile .Chart-section .Chart-section-title {
+    text-align: left;
+}
+
+.Rarity .Rarity-mobile .Chart-section .Chart-section-title h3 {
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}
+
+.Rarity .Rarity-main .Chart-section .Chart-section-title p {
+    font-size: 16px;
+    color: white;
+}
+
+.Rarity .Rarity-mobile .Chart-section .Chart-section-title p {
+    font-size: 14px;
+    color: white;
+}
+
+.Rarity .Rarity-main .Table-section .card {
+    background:#6128BF;
+    transform: rotate(362deg);
+    border-radius: 40px;
+    padding: 5%;
+}
+
+.Rarity .Rarity-mobile .Table-section .card {
+    background:#6128BF;
+    border-radius: 40px;
+    padding: 3%;
+}
+
+.Rarity .Rarity-main .Table-section .card .table-text {
+    text-align: center;
+    transform: rotate(-2deg);
+}
+
+.Rarity .Rarity-main .Table-section .card .table-text h3 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #49EBC4;
+}
+
+.Rarity .Rarity-mobile .Table-section .card .table-text h3 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #49EBC4;
+}
+
+.Rarity .Rarity-main .Table-section .card .table-text p {
+    font-size: 16px;
+    color: white;
+}
+
+.Rarity .Rarity-mobile .Table-section .card .table-text p {
+    font-size: 14px;
+    color: white;
+}
+
+.Rarity .Rarity-main .Table-section .card .card-body {
+    transform: rotate(-2deg);
+}
+
+.Rarity .Rarity-main .Table-section .card .card-body .table-inner-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rarity .Rarity-main .Table-section .card .card-body .table-img img {
+    width: 100%;
+}
+
+.Rarity .Rarity-main .Table-section .card .card-body .table-body {
+    width: 50%;
+    border-radius: 20px;
+    background: #16132E20;
+}
+
+.Rarity .Rarity-mobile .Table-section .card .card-body .table-body {
+    width: 100%;
+    border-radius: 20px;
+    background: #16132E20;
+}
+
+.Rarity .Rarity-main .Table-section .card .card-body .table-body .table {
+    margin: auto;
+}
+
+.Rarity .Rarity-main .Table-section .card .card-body .table-body .table,
+.Rarity .Rarity-mobile .Table-section .card .card-body .table-body .table,
+.Rarity .Rarity-main .Table-section .card .card-body .table-body .table thead,
+.Rarity .Rarity-main .Table-section .card .card-body .table-body .table tbody,
+.Rarity .Rarity-main .Table-section .card .card-body .table-body .table th,
+.Rarity .Rarity-main .Table-section .card .card-body .table-body .table tr,
+.Rarity .Rarity-main .Table-section .card .card-body .table-body .table td {
+    color: white;
+    border-color: #a9a9a97a;
+}
+
+.Rarity .Rarity-main .Table-section .card .card-body .table-body .table tbody tr:last-child {
+    border-style: solid hidden hidden hidden ;
+}
+
+.Rarity .Rarity-main .Table-section .card .card-body .table-body .table td:last-child {
+    text-align: right;
+}
+
+.Rarity .Rarity-mobile .Table-section .card .card-body .table-body .table th {
+    text-align: left;
+    padding-left: 5%;
+}
+
+.Rarity .Rarity-mobile .Table-section .card .card-body .table-body .table tr td tr td:last-child {
+    text-align: right;
+    color: black;
+}
+
+.Rarity .Rarity-mobile .Table-section .card .card-body .table-body .table tbody tr:last-child {
+    border-style: solid hidden hidden hidden;
+}
+
+.Rarity .Rarity-main .Table-section .card .card-body .table-body .table td tr,
+.Rarity .Rarity-mobile .Table-section .card .card-body .table-body .table tr td tr {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5% 5%;
+}
+
+.Rarity .Rarity-main .Table-section .card .card-body .table-body .table th {
+    padding-left: 4%;
+}
+
+.Rarity .Rarity-main .Table-section .card .card-body .table-body .table th:first-child {
+    border-right: 1px solid #a9a9a97a;
+}
+
+.Rarity .Rarity-main .Table-section .card .card-body .table-body .table tbody tr:first-child td:last-child {
+    border-left: 1px solid #a9a9a97a;
+}
+
+.Rarity .Rarity-main .Table-section .card .card-body .table-body .table tbody tr td:last-child td:last-child,
+.Rarity .Rarity-main .Table-section .card .card-body .table-body .table tbody tr:first-child td:first-child tr td:last-child {
+    border-style: hidden;
+}
+
+@media screen and (max-width : 991px) {
+    .Rarity .Rarity-main {
+        display: none;
+    }
+}
+
+@media screen and (min-width : 991px) {
+    .Rarity .Rarity-mobile {
+        display: none;
+    }
+}
+
+
+

@@ -1,0 +1,105 @@
+.Islands .Islands-main,
+.Islands .Islands-mobile {
+    background-image: linear-gradient(#1a1738, #16132e);
+    text-align: left;
+}
+
+.Islands .Islandswave img {
+    width: 100%;
+}
+
+.Islands .Islands-main .Section-title h5{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+
+.Islands .Islands-main .Section-title h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #49ebc4;
+}
+
+.Islands .Islands-main .Section-title p {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.Islands .Islands-main .Section-body {
+   
+}
+
+.Islands .Islands-main .Section-body .odd-row,
+.Islands .Islands-main .Section-body .even-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Islands .Islands-main .Section-body .even-row {
+    flex-direction: row-reverse;
+}
+
+.Islands .Islands-main .Section-body img {
+    width: 80%;
+}
+
+.Islands .Islands-mobile .Section-body img {
+    text-align: center;
+    width: 100%;
+}
+
+.Islands .Islands-mobile .Section-body strong {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.Islands .Islands-mobile .Section-body p {
+    color: white;
+}
+
+.Islands .Islands-main .Section-body strong {
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.Islands .Islands-main .Section-body p {
+    color: white;
+    font-size: 16px;
+}
+
+.Islands .Islands-mobile .Section-title h5{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+
+.Islands .Islands-mobile .Section-title h3{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 900;
+    color: #49ebc4;
+}
+
+.Islands .Islands-mobile .Section-title p {
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+
+@media screen and (max-width:991px){
+    .Islands .Islands-main {
+        display: none;
+    }
+}
+
+@media screen and (min-width:991px){
+    .Islands .Islands-mobile {
+        display: none;
+    }
+}

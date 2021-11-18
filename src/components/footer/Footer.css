@@ -1,0 +1,89 @@
+.Footer .Footer-main,
+.Footer .Footer-mobile {
+    background: #171431;
+}
+
+.Footer ul li {
+    list-style: none;
+    text-align: right;
+}
+
+.Footer ul li a.nav-link {
+    font-size: 12px;
+    text-decoration: underline;
+    color: #a3a3a3;
+    padding: 0;
+}
+
+.Footer .Footerwave img,
+.Footer .container img
+ {
+    width: 100%;
+}
+
+.Footer .Footer-main .Footer-left, 
+.Footer .Footer-main .Footer-right {
+    position: relative;
+}
+
+.Footer .Footer-main .Footer-left p {
+    position: absolute;
+    bottom: 0;
+    color: #a3a3a3;
+    font-size: 12px;
+}
+
+.Footer .Footer-main .Footer-right ul {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.Footer .Footer-mobile .Footer-main-center {
+    margin: auto;
+}
+
+.Footer .Footer-main .Footer-main-center h5,
+.Footer .Footer-mobile .Footer-main-center h5 {
+    color: white;
+}
+
+.Footer .Footer-main .Footer-main-center .Footer-main-center-community {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    margin: 50px 0; 
+}
+
+.Footer .Footer-main .Footer-main-center .Footer-main-center-community span a{
+    color: #171431;
+    font-size: 25px;
+    padding: 1rem 1rem;
+    display: flex;
+}
+
+.Footer .Footer-mobile .Footer-left .ReactFlagsSelect-module_flagsSelect__2pfa2 button {
+    border: none;
+    width: 40px;
+    width: 70px;
+}
+
+.Footer .Footer-main .Footer-main-center .Footer-main-center-community span a img{
+    width: 150%;
+}
+
+.Footer .Footer-mobile .Footer-main-center .Footer-main-center-community {
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 991px) {
+    .Footer .Footer-main {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .Footer .Footer-mobile {
+        display: none;
+    }
+}

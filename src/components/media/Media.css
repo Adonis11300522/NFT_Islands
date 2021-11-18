@@ -1,0 +1,37 @@
+.Media .Mediawave img{
+    width: 100%;
+}
+
+.Media .Media-main {
+    background-image: linear-gradient(#1a1637, #16132e);
+    text-align: left;
+    padding: 5% 0;
+}
+
+.Media .Media-main h5,
+.Media .Media-main-mobile h5 {
+    font-weight: 900;
+    color: white;
+}
+
+.Media .Media-main h3,
+.Media .Media-main-mobile h3 {
+    font-weight: 900;
+    color:#49ebc4;
+    margin-bottom: 5%;
+}
+
+.Media .Media-main .react-multi-carousel-list ul li a img,
+.Media .Media-main-mobile .react-multi-carousel-list ul li a img {
+    width: 100%;
+}
+
+.Media .Media-main .react-multi-carousel-list ul li a .card-text {
+    font-weight: 900;
+    color: black;
+}
+
+.Media .Media-main .card {
+    text-align: center;
+}
+

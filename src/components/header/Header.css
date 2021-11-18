@@ -1,0 +1,166 @@
+.Header {
+    background: #16132e;
+}
+
+.Header .container .ReactFlagsSelect-module_flagsSelect__2pfa2 {
+    margin-left: auto;
+    width: 5%;
+    padding: 0;
+}
+
+.Header .container .ReactFlagsSelect-module_flagsSelect__2pfa2 > button > span {
+    height: 19.19px;
+}
+
+.Header .container .ReactFlagsSelect-module_flagsSelect__2pfa2 > button  {
+    border: none;
+}
+
+.Header .navbar {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.Header .container{
+    background: #16132e;
+    flex-wrap: unset;
+}
+
+.Header .navbar .container .Navbar-menu a {
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.Header .navbar .container button.connect_wallet {
+    font-size: 14px;
+    font-weight: 900;
+    background: #f13b38;
+    border-color : #f13b38;
+    border-radius: 50px;
+}
+
+.Header .navbar .container button.connect_wallet:hover {
+    font-size: 14px;
+    font-weight: 900;
+    background: white;
+    border-color : white;
+    border-radius: 50px;
+    color: white;
+    text-shadow: -1px 0 #f13b38, 0 1px #f13b38, 1px 0 #f13b38, 0 -1px #f13b38;
+    text-shadow: -1px 0 #f13b38, 0 1px #f13b38, 1px 0 #f13b38, 0 -1px #f13b38;
+    box-shadow: inset 0 0 10px 10px #f13b38;
+}
+
+.Header .navbar .container button.navbar-toggler {
+    padding: 0;
+    border: none;
+}
+
+.Header .navbar .container button.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.close {
+    float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+ }
+
+.modal,
+.modal .modal-dialog .modal-content  {
+    background: #16132e;
+    border: none;
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+    border: none;
+}
+
+.modal .modal-dialog .modal-content .modal-header button {
+    background: none;
+    border: none;
+}
+
+.modal .modal-dialog .modal-content .modal-header
+
+.modal .modal-dialog .modal-content .modal-header .btn-close{
+    margin: 0;
+}
+
+.modal .modal-dialog .modal-content .modal-header .ReactFlagsSelect-module_flagsSelect__2pfa2 button {
+    height: 40px;
+    width: 70px;
+    border: none;
+}
+
+.modal .modal-dialog .modal-content .modal-body .navbar-nav {
+    align-items: center;
+}
+
+.modal .modal-dialog .modal-content .modal-body button.connect_wallet {
+    font-size: 14px;
+    font-weight: 900;
+    background: #f13b38;
+    border-color : #f13b38;
+    border-radius: 50px;
+    width: 60%;
+}
+
+.modal .modal-dialog .modal-content .modal-body {
+    text-align: center;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.modal .modal-dialog .modal-content .modal-body a {
+    color: white;
+}
+
+@media screen and (max-width: 991px) {
+    .Header .container .Navbar-menu {
+      display: none;
+    }
+    
+    
+
+    .Header .container .ReactFlagsSelect-module_flagsSelect__2pfa2 {
+        display: none !important;
+    }
+}
+@media  screen and (min-width: 991px) {
+    .Header .navbar.responsive-navbar-nav {
+        display: none;
+    }
+}
+
+
+.Header .navbar .container .Navbar-menu a:hover,
+.Header .navbar .container .Navbar-menu a:focus,
+.Header .navbar .container .Navbar-menu a:active {
+    -webkit-animation-name: hvr-buzz-out;
+    animation-name: hvr-buzz-out;
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    color: #f13b38;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.hvr-buzz-out {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+}
+
+

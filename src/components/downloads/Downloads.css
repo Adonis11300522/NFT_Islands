@@ -1,0 +1,52 @@
+.Downloads .Downloads-main .card,
+.Downloads .Downloads-mobile .card {
+    border: none;
+    background: none;
+    height: 100%;
+    position: relative;
+}
+
+.Downloads .Downloads-mobile .card {
+    margin-bottom: 20px;
+}
+
+.Downloads .Downloads-main .card .card-body,
+.Downloads .Downloads-mobile .card .card-body {
+    background: #25174B;
+    color: white;
+    font-weight: 900;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.Downloads .Downloads-main .card .card-body .card-title,
+.Downloads .Downloads-mobile .card .card-body .card-title {
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 3.5rem;
+}
+
+.Downloads .Downloads-main .card .card-body .card-link button,
+.Downloads .Downloads-mobile .card .card-body .card-link button {
+    background: #6128BF;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 15px;
+    font-weight: 900;
+    font-size: 14px;
+    color: white;
+    bottom: 1rem;
+    position: absolute;
+}
+
+@media screen and (max-width: 1000px) {
+    .Downloads .Downloads-main {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .Downloads .Downloads-mobile {
+      display: none;
+    }
+}

@@ -1,0 +1,27 @@
+.Humanimals .Humanimalswave img{
+    width: 100%;
+}
+
+.Humanimals .Humanimals-main {
+    background-image: linear-gradient(#1a1637, #16132e);
+    text-align: left;
+    padding: 5% 0;
+}
+
+.Humanimals .Humanimals-main h5,
+.Humanimals .Humanimals-main-mobile h5 {
+    font-weight: 900;
+    color: white;
+}
+
+.Humanimals .Humanimals-main h3,
+.Humanimals .Humanimals-main-mobile h3 {
+    font-weight: 900;
+    color:#49ebc4;
+    margin-bottom: 5%;
+}
+
+.Humanimals .Humanimals-main .react-multi-carousel-list ul li a img,
+.Humanimals .Humanimals-main-mobile .react-multi-carousel-list ul li a img {
+    width: 100%;
+}

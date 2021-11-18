@@ -1,0 +1,168 @@
+.TopBanner {
+    height: calc(100vh - 72px);
+    position: relative;
+}
+
+.TopBanner .text-slide {
+    position:relative;
+    z-index:10;
+}
+
+.TopBanner .animate-image {
+    position:absolute;
+    top:0;
+    width:100%
+}
+
+.TopBanner .animate-image img {
+    width: 100%;
+}
+
+.TopBanner .animate-image .row {
+    justify-content: space-between;
+}
+
+.TopBanner .animate-image .topright,
+.TopBanner .animate-image .bottomleft {
+    align-self: center;
+}
+.TopBanner .animate-image {
+    position: relative;
+}
+
+.TopBanner .animate-image .row:first-child {
+    margin-bottom: 20%;
+}
+
+.TopBanner .animate-image {
+    position: absolute;
+    overflow: hidden;
+}
+
+.TopBanner .container h1{
+    text-align: left;
+    font-size: 150px;
+    font-weight: 900;
+    color: white;
+}
+
+.TopBanner .container h1 span,
+.TopBanner-mobile .container h1 span {
+    color:#49ebc4;
+}
+
+.TopBanner .container > p {
+    color: white;
+    text-align: left;
+    font-size: 16px;
+}
+
+.TopBanner-mobile .container > p {
+    color: white;
+    text-align: left;
+    font-size: 14px;
+}
+
+.TopBanner .container form h6,
+.TopBanner-mobile .container form h6 {
+    color:white;
+    text-align: left;
+    font-weight: 900;
+}
+
+.TopBanner .container form .form-control,
+.TopBanner-mobile .container form .form-control {
+    background: #16132e;
+    border-color: #49ebc4;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+}
+
+.TopBanner-mobile .container form .my-1 {
+    width: 50%;
+    display: inline-block;
+}
+
+.TopBanner .container form button {
+    background: #6128bf;
+    padding: 0.5rem 3rem;
+    border-radius: 50px;
+    border-color: #6128bf;
+    font-weight: 900;
+}
+
+.TopBanner .container form button:hover {
+    background: white;
+    padding: 0.5rem 3rem;
+    border-radius: 50px;
+    border-color: white;
+    font-weight: 900;
+    color: white;
+    text-shadow: -1px 0 #6128bf, 0 1px #6128bf, 1px 0 #6128bf, 0 -1px #6128bf;
+    text-shadow: -1px 0 #6128bf, 0 1px #6128bf, 1px 0 #6128bf, 0 -1px #6128bf;
+    box-shadow: inset 0 0 10px 10px #6128bf;
+}
+
+.TopBanner-mobile .container form button {
+    background: #6128bf;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    border-color: #6128bf;
+    font-weight: 900;
+}
+
+.TopBanner-mobile img {
+    width: 100%;
+}
+
+
+
+
+
+.TopBanner-mobile .container h1{
+    text-align: left;
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .TopBanner {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .TopBanner-mobile {
+      display: none;
+    }
+
+    .TopBanner .container h1 {
+        text-align: left;
+        font-size: 100px;
+        font-weight: 900;
+        color: white;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .TopBanner .container h1 {
+        text-align: left;
+        font-size: 100px;
+        font-weight: 900;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .TopBanner .container h1 {
+        text-align: left;
+        font-size: 100px;
+        font-weight: 900;
+        color: white;
+    }
+}

@@ -1,0 +1,132 @@
+.About .Aboutwave img{
+    width: 100%;
+}
+
+.About .About-main,
+.About .About-mobile {
+    background-image: linear-gradient(#1a1637, #16132e);
+    text-align: left;
+    padding: 5% 0;
+}
+
+.About .About-main h5,
+.About .About-main h4,
+.About .About-mobile h5 {
+    font-weight: 900;
+    color: white;
+}
+
+.About .About-main h3,
+.About .About-mobile h3 {
+    font-weight: 900;
+    color:#49ebc4;
+    margin-bottom: 5%;
+}
+
+.About .About-main .react-multi-carousel-list ul li a img,
+.About .About-mobile .react-multi-carousel-list ul li a img {
+    width: 100%;
+}
+
+.About .About-main h4{
+    font-size: 60px;
+}
+
+.About .About-main h4:last-child,
+.About .About-mobile h4:last-child {
+    text-align: center !important;
+}
+
+.About .About-mobile h4 {
+    font-weight: 900;
+    color: white;
+}
+
+.About .About-mobile .About-body {
+    color: white;
+}
+
+.About .About-main .About-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.About .About-mobile .About-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.About .About-main .About-body .About-text,
+.About .About-mobile .About-body .About-text {
+    color: white;
+}
+
+.About .About-main .About-body .Aboutbanner {
+    text-align: right;
+}
+
+.About .About-main .About-body .Aboutbanner img,
+.About .About-mobile .About-body .Aboutbanner img  {
+    width: 100%;
+}
+
+.About .About-main .AboutBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.About .About-main .AboutBtn button {
+    margin: 1% 2%;
+    width: 20%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-weight: 900;
+    border: none;
+}
+
+.About .About-mobile .AboutBtn button {
+    margin-bottom:20px;
+    width: 100%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-weight: 900;
+    border: none;
+}
+
+.About .About-main .AboutBtn button:first-child,
+.About .About-mobile .AboutBtn button:first-child {
+    background: #16518B;
+}
+
+.About .About-main .AboutBtn button:last-child,
+.About .About-mobile .AboutBtn button:last-child {
+    background: #901749;
+}
+
+.About .About-main .AboutBtn button:hover {
+    transform: scale(1.2);
+}
+
+.About .About-main .AboutBtn button span,
+.About .About-mobile .AboutBtn button span {
+    margin: auto;
+}
+
+@media screen and (max-width: 991px) {
+    .About .About-main {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .About .About-mobile {
+      display: none;
+    }
+}
