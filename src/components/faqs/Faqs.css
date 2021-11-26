@@ -1,0 +1,72 @@
+.Faqs .Faqswave img{
+    width: 100%;
+}
+
+.Faqs .Faqs-main {
+    background-image: linear-gradient(#1a1637, #16132e);
+    text-align: left;
+    padding: 5% 0;
+}
+
+.Faqs .Faqs-main h5 {
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.Faqs .Faqs-main h3 {
+    font-weight: 900;
+    color:#49ebc4;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.Faqs .Faqs-main .accordion .accordion-item {
+    border: none;
+    background: none;
+}
+
+.Faqs .Faqs-main .accordion .accordion-item .accordion-button {
+    background: none;
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.Faqs .Faqs-main .accordion .accordion-item .accordion-button:focus,
+.Faqs .Faqs-main .accordion .accordion-item .accordion-button:active {
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    background-color: #49ebc4;
+    border-radius: 50%;
+}
+
+.Faqs .Faqs-main .accordion .accordion-item .accordion-body {
+    display: flex;
+    justify-content: left;
+}
+
+.Faqs .Faqs-main .accordion .accordion-item .accordion-body p{
+    color: white;
+    font-size: 16px;
+    width: 40%;
+    margin-right: 5%;
+}
+
+@media screen and (max-width:991px) {
+    .Faqs .Faqs-main .accordion .accordion-item .accordion-button {
+        background: none;
+        color: white;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .Faqs .Faqs-main .accordion .accordion-item .accordion-body {
+        flex-direction: column;
+    }
+
+    .Faqs .Faqs-main .accordion .accordion-item .accordion-body p{
+        width: 100%;
+    }
+}

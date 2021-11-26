@@ -2,7 +2,6 @@ import React from "react";
 import {Container } from 'react-bootstrap';
 import Roadmapwave from './assets/roadmapwave.png';
 import './Roadmap.css';
-import Avatar1 from './assets/avatar1.png';
 import Avatar2 from './assets/avatar2.png';
 import Avatar3 from './assets/avatar3.png';
 import Avatar4 from './assets/avatar4.png';

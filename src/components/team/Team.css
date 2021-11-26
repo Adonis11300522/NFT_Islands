@@ -9,14 +9,71 @@
 }
 
 .Team .Team-main h5,
-.Team .Team-main-mobile h5 {
+.Team .Team-main-mobile  h5 {
     font-weight: 900;
     color: white;
 }
 
-.Team .Team-main h3,
-.Team .Team-main-mobile h3 {
+
+.Team .Team-main .Team-main-title h3,
+.Team .Team-main-mobile .Team-main-title h3 {
     font-weight: 900;
     color:#49ebc4;
-    margin-bottom: 5%;
 }
+
+.Team .Team-main p,
+.Team .Team-main-mobile p {
+    color: white;
+    margin: 0;
+}
+
+.Team .Team-main-mobile .Team-main-title p {
+    font-size: 14px;
+}
+
+.Team .Team-main-mobile .Team-main-title {
+    text-align: left;
+}
+
+.Team .Team-main-mobile .big-avatar img,
+.Team .Team-main-mobile .team-members img {
+    padding: 5%;
+    width: 100%;
+}
+
+.Team .Team-main-mobile .team-members .team-member {
+    width: 50%;
+}
+
+.Team .Team-main-mobile .team-members {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Team .Team-main .big-avatar img {
+    padding: 5%;
+}
+
+.Team .Team-main .team-members {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 5% 0;
+}
+
+.Team .Team-main .team-members img {
+    width: 80%;
+    margin: 5%;
+}
+
+@media screen and (max-width:991px) {
+    .Team .Team-main {
+        display: none;
+    }
+}
+
+@media screen and (min-width:991px) {
+    .Team .Team-main-mobile {
+        display: none;
+    }
+}
+

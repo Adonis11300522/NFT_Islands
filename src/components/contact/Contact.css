@@ -1,0 +1,103 @@
+.Contact .Contactwave img{
+    width: 100%;
+}
+
+.Contact .Contact-main {
+    background: white;
+    text-align: left;
+    padding: 5% 0;
+}
+
+.Contact .Contact-main h5 {
+    font-weight: 900;
+    color:#49ebc4;
+    text-align: left;
+    font-size: 20px;
+}
+
+.Contact .Contact-main h3 {
+    font-weight: 900;
+    color:#16132e;
+    margin-bottom: 5%;
+    text-align: left;
+    font-size: 60px;
+}
+
+.Contact .Contact-main form {
+    text-align: center;
+}
+
+.Contact .Contact-main form input.form-control {
+    border-radius: 50px;
+    border-color: #49ebc4;
+}
+
+.Contact .Contact-main form textarea.form-control {
+    border-radius: 20px;
+    border-color: #49ebc4;
+}
+
+.Contact .Contact-main form .form-floating > label {
+    padding: 1rem 1.75rem;
+    color: gray;
+}
+
+.Contact .Contact-main form button {
+    background: #49ebc4;
+    border: none;
+    border-radius: 50px;
+    width: 30%;
+    text-align: center;
+    font-weight: 800;
+}
+
+.Contact .Contact-main .Contact-body {
+    display: flex;
+    justify-content: space-between;    
+}
+.Contact .Contact-main .card{
+    background: #6128BF;
+    border-radius: 20px;
+}
+
+.Contact .Contact-main .card-body .card-title svg {
+    color: #6128bf;
+    background: white;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.Contact .Contact-main .card-body .card-subtitle {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+@media screen and (max-width:991px) {
+    .Contact .Contact-main .Contact-body {
+        display: flex;
+        justify-content: space-between;  
+        flex-direction: column;  
+    }
+
+    .Contact .Contact-main .Contact-body .card:first-child {
+        margin-top: 20px;
+    }
+
+    .Contact .Contact-main form .form-floating textarea {
+        height: 150px !important;
+    }
+
+    .Contact .Contact-main h3 {
+        font-weight: 900;
+        color:#16132e;
+        margin-bottom: 5%;
+        text-align: left;
+        font-size: 30px;
+    }
+}
+
+

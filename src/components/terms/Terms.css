@@ -1,0 +1,65 @@
+.Terms .Termswave img{
+    width: 100%;
+}
+
+.Terms .Terms-main {
+    background: white;
+    text-align: left;
+    padding: 5% 0;
+}
+
+.Terms .Terms-main h3 {
+    font-weight: 900;
+    color:#16132e;
+    margin-bottom: 5%;
+    text-align: left;
+    font-size: 40px;
+}
+
+.Terms .Terms-main .Terms-body {
+    display: flex;
+    justify-content: space-between;    
+}
+.Terms .Terms-main .card{
+    background: #6128BF;
+    border-radius: 20px;
+}
+
+.Terms .Terms-main .card-body .card-title svg {
+    color: #6128bf;
+    background: white;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.Terms .Terms-main .card-body .card-subtitle {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+@media screen and (max-width:991px) {
+    .Terms .Terms-main .Terms-body {
+        display: flex;
+        justify-content: space-between;  
+        flex-direction: column;  
+    }
+
+    .Terms .Terms-main .Terms-body .card:first-child {
+        margin-top: 20px;
+    }
+
+    .Terms .Terms-main h3 {
+        font-weight: 900;
+        color:#16132e;
+        margin-bottom: 5%;
+        text-align: left;
+        font-size: 40px;
+    }
+
+}
+
+

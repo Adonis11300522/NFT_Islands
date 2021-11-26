@@ -17,26 +17,36 @@ import Store from './components/store/Store';
 import Activation from './components/activations/Activation';
 import Roadmap from './components/roadmap/Roadmap';
 import Team from './components/team/Team';
+import Faqs from './components/faqs/Faqs';
+import Contact from './components/contact/Contact';
+import Terms from './components/terms/Terms';
+import { BrowserRouter } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-        <Header/>
-        <TopBanner/>
-        <Community/>
-        <Minting/>
-        <Humanimals/>
-        <About/>
-        <Media/>
-        <Downloads/>
-        <Islands/>
-        <Rarity/>
-        <Store/>
-        <Activation/>
-        <Roadmap/>
-        <Team/>
-        <Footer/> 
+        <BrowserRouter>
+            <Header/>
+            <TopBanner/>
+            <Community/>
+            <Minting/>
+            <Humanimals/>
+            <About/>
+            <Media/>
+            <Downloads/>
+            <Islands/>
+            <Rarity/>
+            <Store/>
+            <Activation/>
+            <Roadmap/>
+            <Team/>
+            <Faqs/>
+            <Contact/>
+            <Terms/>
+            <Footer/> 
+        </BrowserRouter>
+        
     </div>
   );
 }

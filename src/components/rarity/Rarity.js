@@ -53,9 +53,9 @@ function Rarity() {
                                     </Col>
                                     <Col className="avatar-property" md={7}>
                                         <h6>#1234</h6>
-                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} className="icon" />} placeholderSymbol={<img src={Ratingfull2x} className="icon" />}  fullSymbol={<img src={Ratingfull2x} className="icon" />}/></span>
+                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingempty1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingempty1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} alt="Ratingempty1x" className="icon" />} placeholderSymbol={<img src={Ratingfull2x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull2x} alt="Ratingfull1x" className="icon" />}/></span>
                                     </Col>
                                 </Card.Body>
                             </Card>
@@ -70,9 +70,9 @@ function Rarity() {
                                     </Col>
                                     <Col className="avatar-property" md={7}>
                                         <h6>#1234</h6>
-                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} className="icon" />} placeholderSymbol={<img src={Ratingfull2x} className="icon" />}  fullSymbol={<img src={Ratingfull2x} className="icon" />}/></span>
+                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />} alt="Ratingfull1x"  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />} alt="Ratingfull1x"  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull2x} className="icon" />} alt="Ratingfull1x"  fullSymbol={<img src={Ratingfull2x} alt="Ratingfull1x" className="icon" />}/></span>
                                     </Col>
                                 </Card.Body>
                             </Card>
@@ -87,9 +87,9 @@ function Rarity() {
                                     </Col>
                                     <Col className="avatar-property" md={7}>
                                         <h6>#1234</h6>
-                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} className="icon" />} placeholderSymbol={<img src={Ratingfull2x} className="icon" />}  fullSymbol={<img src={Ratingfull2x} className="icon" />}/></span>
+                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull2x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull2x} alt="Ratingfull1x" className="icon" />}/></span>
                                     </Col>
                                 </Card.Body>
                             </Card>
@@ -104,9 +104,9 @@ function Rarity() {
                                     </Col>
                                     <Col className="avatar-property" md={7}>
                                         <h6>#1234</h6>
-                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} className="icon" />} placeholderSymbol={<img src={Ratingfull2x} className="icon" />}  fullSymbol={<img src={Ratingfull2x} className="icon" />}/></span>
+                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull2x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull2x} alt="Ratingfull1x" className="icon" />}/></span>
                                     </Col>
                                 </Card.Body>
                             </Card>
@@ -123,9 +123,9 @@ function Rarity() {
                                     </Col>
                                     <Col className="avatar-property" md={7}>
                                         <h6>#1234</h6>
-                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} className="icon" />} placeholderSymbol={<img src={Ratingfull2x} className="icon" />}  fullSymbol={<img src={Ratingfull2x} className="icon" />}/></span>
+                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull2x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull2x} alt="Ratingfull1x" className="icon" />}/></span>
                                     </Col>
                                 </Card.Body>
                             </Card>
@@ -140,9 +140,9 @@ function Rarity() {
                                     </Col>
                                     <Col className="avatar-property" md={7}>
                                         <h6>#1234</h6>
-                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} className="icon" />} placeholderSymbol={<img src={Ratingfull2x} className="icon" />}  fullSymbol={<img src={Ratingfull2x} className="icon" />}/></span>
+                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull2x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull2x} alt="Ratingfull1x" className="icon" />}/></span>
                                     </Col>
                                 </Card.Body>
                             </Card>
@@ -157,9 +157,9 @@ function Rarity() {
                                     </Col>
                                     <Col className="avatar-property" md={7}>
                                         <h6>#1234</h6>
-                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} className="icon" />} placeholderSymbol={<img src={Ratingfull2x} className="icon" />}  fullSymbol={<img src={Ratingfull2x} className="icon" />}/></span>
+                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull2x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull2x}  alt="Ratingfull1x"className="icon" />}/></span>
                                     </Col>
                                 </Card.Body>
                             </Card>
@@ -174,9 +174,9 @@ function Rarity() {
                                     </Col>
                                     <Col className="avatar-property" md={7}>
                                         <h6>#1234</h6>
-                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} className="icon" />} placeholderSymbol={<img src={Ratingfull1x} className="icon" />}  fullSymbol={<img src={Ratingfull1x} className="icon" />}/></span>
-                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} className="icon" />} placeholderSymbol={<img src={Ratingfull2x} className="icon" />}  fullSymbol={<img src={Ratingfull2x} className="icon" />}/></span>
+                                        <span><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingempty1x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull1x} alt="Ratingfull1x" className="icon" />}/></span>
+                                        <span><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingempty2x} alt="Ratingfull1x" className="icon" />} placeholderSymbol={<img src={Ratingfull2x} alt="Ratingfull1x" className="icon" />}  fullSymbol={<img src={Ratingfull2x} alt="Ratingfull1x" className="icon" />}/></span>
                                     </Col>
                                 </Card.Body>
                             </Card>
