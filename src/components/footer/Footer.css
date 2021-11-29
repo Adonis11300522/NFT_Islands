@@ -1,6 +1,6 @@
 .Footer .Footer-main,
 .Footer .Footer-mobile {
-    background: #171431;
+    background: #191535;;
 }
 
 .Footer ul li {
@@ -13,6 +13,11 @@
     text-decoration: underline;
     color: #a3a3a3;
     padding: 0;
+}
+
+.Contactpage .Footer .Footerwave,
+.Termspage .Footer .Footerwave {
+    background: white;
 }
 
 .Footer .Footerwave img,

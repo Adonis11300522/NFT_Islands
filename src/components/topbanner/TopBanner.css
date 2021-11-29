@@ -1,6 +1,7 @@
 .TopBanner {
     height: calc(100vh - 72px);
     position: relative;
+    background-image: linear-gradient(#1a1738, #16132e);
 }
 
 .TopBanner .text-slide {

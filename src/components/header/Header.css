@@ -1,5 +1,20 @@
-.Header {
-    background: #16132e;
+.Header .Header-main,
+.Header .Header-main .ReactFlagsSelect-module_flagsSelect__2pfa2,
+.Header .Header-main  {
+    background: #1a1637;
+}
+
+.Header .Headerwave {
+    background: white;
+}
+
+.Header .Headerwave img
+ {
+    width: 100%;
+}
+
+.Homepage .Header .Headerwave {
+    display: none;
 }
 
 .Header .container .ReactFlagsSelect-module_flagsSelect__2pfa2 {
@@ -22,7 +37,7 @@
 }
 
 .Header .container{
-    background: #16132e;
+    background: #1a1637;
     flex-wrap: unset;
 }
 
