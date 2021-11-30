@@ -27,18 +27,18 @@ function Homepage() {
         <Header />
         <TopBanner />
         <Community />
-        <Minting />
+        <Minting id="Minting"/>
         <Humanimals />
-        <About />
+        <About id="About"/>
         <Media />
         <Downloads />
         <Islands />
-        <Rarity />
-        <Store />
+        <Rarity id="Rarity"/>
+        <Store id="Store"/>
         <Activation />
-        <Roadmap />
-        <Team />
-        <Faqs />
+        <Roadmap id="Roadmap"/>
+        <Team id="Team"/>
+        <Faqs id="Faqs"/>
         <Footer />
     </div>
   );
