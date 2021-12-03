@@ -8,7 +8,7 @@ import './Minting.css';
 
 function Minting() {
     return ( 
-        <div className="Minting">   
+        <div className="Minting" id="Minting">   
             <div className="Mintingwave"><img src={Mintingwave} alt="Mintingwave"/></div>  
             <div className="Minting-main">
                 <Container>

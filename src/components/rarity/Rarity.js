@@ -17,7 +17,7 @@ import { FaHardHat, FaTshirt, FaSmile } from "react-icons/fa";
 
 function Rarity() {
     return ( 
-        <div className="Rarity">   
+        <div className="Rarity" id="Rarity">   
             <div className="Raritywave"><img src={Raritywave} alt="Raritywave"/></div>  
             <div className="Rarity-main">
                 <Container className="Section-title">

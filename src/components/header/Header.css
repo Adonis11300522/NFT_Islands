@@ -45,6 +45,7 @@
     color: white;
     padding-left: 1rem;
     padding-right: 1rem;
+    text-decoration: none;
 }
 
 .Header .navbar .container button.connect_wallet {
@@ -58,13 +59,10 @@
 .Header .navbar .container button.connect_wallet:hover {
     font-size: 14px;
     font-weight: 900;
-    background: white;
-    border-color : white;
+    background: #C32E2C;
+    border-color : #C32E2C;
     border-radius: 50px;
     color: white;
-    text-shadow: -1px 0 #f13b38, 0 1px #f13b38, 1px 0 #f13b38, 0 -1px #f13b38;
-    text-shadow: -1px 0 #f13b38, 0 1px #f13b38, 1px 0 #f13b38, 0 -1px #f13b38;
-    box-shadow: inset 0 0 10px 10px #f13b38;
 }
 
 .Header .navbar .container button.navbar-toggler {
@@ -166,8 +164,7 @@
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
-    color: #f13b38;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: #49ebc4;
 }
 
 .hvr-buzz-out {

@@ -9,7 +9,7 @@
 }
 
 .Minting .Minting-main .card {
-    background: #6128bf;
+    background-image: linear-gradient(#6128BF, #311460);
     transform: rotate(-2deg);
     width: 100% !important;
     margin: auto;
@@ -87,6 +87,11 @@
     padding: 3px;
 }
 
+.Minting .Minting-main .Minting-stepper  button:hover,
+.Minting .Minting-main-mobile .Minting-stepper  button:hover {
+   filter: opacity(0.7);
+}
+
 .Minting .Minting-main .Minting-stepper  button img,
 .Minting .Minting-main-mobile .Minting-stepper  button img {
     width: 100%;
@@ -140,13 +145,14 @@
 .Minting .Minting-main-mobile .MintBtn button:first-child {
     background:#49EBC4;
 }
-.Minting .Minting-main .MintBtn button:last-child:hover,
 .Minting .Minting-main .MintBtn button:first-child:hover {
-    background:white;
+    background:#3ABC9D;
     color: white;
-    text-shadow: -1px 0 #f13b38, 0 1px #f13b38, 1px 0 #f13b38, 0 -1px #f13b38;
-    box-shadow: inset 0 0 10px 10px #f13b38;
+}
 
+
+.Minting .Minting-main .MintBtn button:last-child:hover {
+    background: #C32E2C;
 }
 
 
@@ -156,7 +162,7 @@
 }
 
 .Minting .Minting-main .MintBtn button {
-    width: 20%;
+    width: 25%;
     font-size: 14px;
     font-weight: 900;
     color: white;

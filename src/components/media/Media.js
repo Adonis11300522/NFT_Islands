@@ -89,6 +89,26 @@ function Media() {
                                 </Card.Body>
                             </Card>
                         </NavLink>
+                        <NavLink>
+                            <Card style={{ width: '15rem', margin : 'auto' }}>
+                                <Card.Body>
+                                    <Card.Title><img src={Yahoo} alt="Yahoo"/></Card.Title>                              
+                                    <Card.Text>
+                                    SED UT PERSPICIATIS<br/>UNDE OMNIS ISTE
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </NavLink>
+                        <NavLink>
+                            <Card style={{ width: '15rem', margin : 'auto' }}>
+                                <Card.Body>
+                                    <Card.Title><img src={Yahoo} alt="Yahoo"/></Card.Title>                              
+                                    <Card.Text>
+                                    SED UT PERSPICIATIS<br/>UNDE OMNIS ISTE
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </NavLink>
                     </Carousel>;
                 </Container>
             </div>               

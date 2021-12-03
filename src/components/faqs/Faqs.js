@@ -6,7 +6,7 @@ import './Faqs.css';
 
 function Faqs() {
     return ( 
-        <div className="Faqs">   
+        <div className="Faqs" id="Faqs">   
             <div className="Faqswave"><img src={Faqswave} alt="Faqswave" className="Faqswave"/></div>  
             <div className="Faqs-main">
                 <Container>

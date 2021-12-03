@@ -21,6 +21,19 @@
     margin-bottom: 5%;
 }
 
+.Community .Community-main .community-link a.nav-link svg {
+    font-size: 120px;
+    background: white;
+    padding: 30px;
+    border-radius: 50%;
+    color: #171430;
+}
+
+.Community .Community-main .community-link a.nav-link svg:hover {
+    background: #6128BF;
+    color: white;
+}
+
 
 .Community .Community-main .community-link {
     display: flex;

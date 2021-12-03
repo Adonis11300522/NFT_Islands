@@ -21,7 +21,7 @@ function Roadmap() {
         // Theme object to extends default dark theme.
       };
     return ( 
-        <div className="Roadmap">  
+        <div className="Roadmap" id="Roadmap">  
             <div className="Roadmapwave"><img src={Roadmapwave} alt="Roadmapwave" className="Roadmapwave"/></div>  
             <div className="Roadmap-main">
                 <Container>

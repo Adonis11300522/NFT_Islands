@@ -33,6 +33,18 @@
     font-size: 40px;
 }
 
+.Faqs .Faqs-main .accordion .accordion-item .accordion-button::after:hover {
+    filter: opacity(0.5);
+}
+
+.Faqs .Faqs-main .accordion .accordion-item .accordion-button::after {
+    font-size: 13px;
+    padding: 2px;
+    content: "V";
+    text-align: center;
+    background-image: none;
+}
+
 .Faqs .Faqs-main .accordion .accordion-item .accordion-button:focus,
 .Faqs .Faqs-main .accordion .accordion-item .accordion-button:active {
     box-shadow: none;

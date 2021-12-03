@@ -79,6 +79,15 @@
     padding: 0.5rem 1rem;
 }
 
+.TopBanner .container form .form-control:focus,
+.TopBanner-mobile .container form .form-control:focus {
+    background: #16132e;
+    border-color: #6128bf;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    box-shadow: none;
+}
+
 .TopBanner-mobile .container form .my-1 {
     width: 50%;
     display: inline-block;
@@ -93,15 +102,12 @@
 }
 
 .TopBanner .container form button:hover {
-    background: white;
+    background: #50219D;
     padding: 0.5rem 3rem;
     border-radius: 50px;
-    border-color: white;
+    border-color: #50219D;
     font-weight: 900;
     color: white;
-    text-shadow: -1px 0 #6128bf, 0 1px #6128bf, 1px 0 #6128bf, 0 -1px #6128bf;
-    text-shadow: -1px 0 #6128bf, 0 1px #6128bf, 1px 0 #6128bf, 0 -1px #6128bf;
-    box-shadow: inset 0 0 10px 10px #6128bf;
 }
 
 .TopBanner-mobile .container form button {

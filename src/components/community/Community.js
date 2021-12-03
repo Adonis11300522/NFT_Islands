@@ -8,6 +8,7 @@ import Telegram from './assets/logo_telegram.png';
 import Discord from './assets/logo_discord.png';
 import Fb from './assets/logo_fb.png';
 import Twitter from './assets/logo_twitter.png';
+import { FaInstagram, FaTwitter, FaFacebookF, FaDiscord, FaTelegramPlane} from "react-icons/fa";
 
 function Community() {
     return ( 
@@ -19,12 +20,17 @@ function Community() {
                 <h3>JOIN OUR COMMUNITY</h3>                    
                 </Container>  
                 <Container className="community-link">
-                    <NavLink href="#"><img src={Insta} alt="logo_insta"/></NavLink>
-                    <NavLink href="#"><img src={Twitter} alt="Twitter"/></NavLink>
+                    <NavLink href="#"><FaInstagram/></NavLink>
+                    <NavLink href="#"><FaTwitter/></NavLink>
+                    <NavLink href="#"><FaFacebookF/></NavLink>
+                    <NavLink href="#"><FaDiscord/></NavLink>
+                    <NavLink href="#"><FaTelegramPlane/></NavLink>
+                    <NavLink href="#"><FaTelegramPlane/></NavLink>
+                    {/* <NavLink href="#"><img src={Twitter} alt="Twitter"/></NavLink>
                     <NavLink href="#"><img src={Fb} alt="Fb"/></NavLink>   
                     <NavLink href="#"><img src={Discord} alt="Discord"/></NavLink>
                     <NavLink href="#"><img src={Telegram} alt="Telegram"/></NavLink>
-                    <NavLink href="#"><img src={Medium} alt="Medium"/></NavLink>
+                    <NavLink href="#"><img src={Medium} alt="Medium"/></NavLink> */}
                 </Container>
             </div>     
             <div className="Community-main-mobile">
@@ -33,7 +39,7 @@ function Community() {
                 <h3>JOIN OUR COMMUNITY</h3>                    
                 </Container>  
                 <Container className="community-link">
-                    <NavLink href="#"><img src={Insta} alt="logo_insta"/></NavLink>
+                    <NavLink href="#"></NavLink>
                     <NavLink href="#"><img src={Twitter} alt="Twitter"/></NavLink>
                     <NavLink href="#"><img src={Fb} alt="Fb"/></NavLink>  
                 </Container>

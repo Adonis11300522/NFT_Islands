@@ -8,6 +8,7 @@ import Close from './assets/close.png';
 import ReactFlagsSelect from 'react-flags-select';
 import {Link, animateScroll as scroll} from 'react-scroll';
 import Homepage from "../../pages/Homepage";
+import { HashLink } from 'react-router-hash-link';
 
 function Header() {
     const [fullscreen, setFullscreen] = useState(true);
@@ -39,13 +40,13 @@ function Header() {
                     </Navbar>
                     <Navbar.Brand href="/"><img src={Logo} alt="Logo"/></Navbar.Brand>   
                     <Nav className="Navbar-menu">
-                            <Link activeClass="active" to="Minting" >MINTING</Link>
-                            <Link activeClass="active" to="About">ABOUT</Link>
-                            <Link activeClass="active" to="Rarity">RARITY</Link>
-                            <Link activeClass="active" to="Store">STORE</Link>
-                            <Link activeClass="active" to="Roadmap">ROADMAP</Link>
-                            <Link activeClass="active" to="Team">TEAM</Link>
-                            <Link activeClass="active" to="Faqs">FAQS</Link>
+                            <HashLink  activeClass="active" to="/#Minting" >MINTING</HashLink >
+                            <HashLink  activeClass="active" to="/#About">ABOUT</HashLink >
+                            <HashLink activeClass="active" to="/#Rarity">RARITY</HashLink>
+                            <HashLink activeClass="active" to="/#Store">STORE</HashLink>
+                            <HashLink activeClass="active" to="/#Roadmap">ROADMAP</HashLink>
+                            <HashLink activeClass="active" to="/#Team">TEAM</HashLink>
+                            <HashLink activeClass="active" to="/#Faqs">FAQS</HashLink>
                         </Nav>             
                     <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
                         <Modal.Header >

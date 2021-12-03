@@ -35,7 +35,7 @@ function Store() {
       };
 
     return ( 
-        <div className="Store">   
+        <div className="Store" id="Store">   
             <div className="Storewave"><img src={Storewave} alt="Storewave" className="Storewave"/></div>  
             <div className="Store-main">
                 <Container>

@@ -62,11 +62,23 @@
     color: white;
 }
 
+.About .About-main h4.mt-4 {
+    text-align: center;
+}
+
+.About .About-mobile h4.mt-4 {
+    text-align: center;
+    font-size: 40px;
+}
+
 .About .About-main .About-body .Aboutbanner {
     text-align: right;
 }
 
-.About .About-main .About-body .Aboutbanner img,
+.About .About-main .About-body .Aboutbanner img {
+    width: 80%;
+}
+
 .About .About-mobile .About-body .Aboutbanner img  {
     width: 100%;
 }

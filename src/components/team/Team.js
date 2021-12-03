@@ -19,7 +19,7 @@ import Panda from './assets/Panda.png';
 function Team() {
 
     return ( 
-        <div className="Team">   
+        <div className="Team" id="Team">   
             <div className="Teamwave"><img src={Teamwave} alt="Teamwave" className="Teamwave"/></div>  
             <div className="Team-main">
                 <Container>
