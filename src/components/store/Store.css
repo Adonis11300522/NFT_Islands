@@ -43,12 +43,14 @@
 
 .Store .Store-main .react-multi-carousel-list ul li .card .card-subtitle {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 900;
     color: #171431;
 }
 
 .Store .Store-main .react-multi-carousel-list ul li .card .card-text {
     font-size: 16px;
+    color: black;
+    text-align: center;
 }
 
 .Store .Store-main .react-multi-carousel-list ul li .card .card-title {
@@ -96,5 +98,17 @@
 
     .Store .Store-main .Social-banner div img {
         width: 80%;
+    }
+
+    .Store .Store-main .react-multi-carousel-list ul li .card .card-subtitle {
+        font-size: 15px;
+        font-weight: 900;
+        color: #171431;
+    }
+
+    .Store .Store-main .react-multi-carousel-list ul li .card .card-title {
+        font-size: 30px;
+        color: #6128BF;
+        font-weight: 900;
     }
 }

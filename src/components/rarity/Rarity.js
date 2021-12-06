@@ -9,6 +9,10 @@ import Ratingempty1x from './assets/rating-empty-1x.png';
 import Ratingfull1x from './assets/rating-full-1x.png';
 import Ratingempty2x from './assets/rating-empty-2x.png';
 import Ratingfull2x from './assets/rating-full-2x.png';
+import Ratingemptymobile1x from './assets/rating-empty-mobile1x.png';
+import Ratingfullmobile1x from './assets/rating-full-mobile1x.png';
+import Ratingemptymobile2x from './assets/rating-empty-mobile2x.png';
+import Ratingfullmobile2x from './assets/rating-full-mobile2x.png';
 import Chartimage from './assets/chart.png';
 import Chimpanze from './assets/Chimpanze.png';
 import './Rarity.css';
@@ -310,7 +314,151 @@ function Rarity() {
                             <Button>DUBBLY ISLAND</Button>      
                         </div>
                         <div className="AvatarCards">
-                            <Card  className="AvatarCard" style={{ width: '20rem' }}>
+                            <Card className="AvatarCard">
+                                <Card.Img variant="top" src={Avatar1} />
+                                <Card.Body className="Avatarcard-body">
+                                    <Col className="small-card" md={6}>
+                                        <div className="card">
+                                            <div className="card-body">3</div>
+                                            <div className="card-footer">COMMON</div>
+                                        </div>
+                                    </Col>
+                                    <Col className="avatar-property" md={6}>
+                                        <h6>#1234</h6>
+                                        <span className="reviews"><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingemptymobile2x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile2x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile2x} className="icon" />}/></span>
+                                    </Col>
+                                </Card.Body>
+                            </Card>
+                            <Card className="AvatarCard">
+                                <Card.Img variant="top" src={Avatar1} />
+                                <Card.Body className="Avatarcard-body">
+                                    <Col className="small-card" md={6}>
+                                        <div className="card">
+                                            <div className="card-body">3</div>
+                                            <div className="card-footer">COMMON</div>
+                                        </div>
+                                    </Col>
+                                    <Col className="avatar-property" md={6}>
+                                        <h6>#1234</h6>
+                                        <span className="reviews"><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingemptymobile2x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile2x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile2x} className="icon" />}/></span>
+                                    </Col>
+                                </Card.Body>
+                            </Card>
+                        </div> 
+                        <div className="AvatarCards">
+                            <Card className="AvatarCard">
+                                <Card.Img variant="top" src={Avatar1} />
+                                <Card.Body className="Avatarcard-body">
+                                    <Col className="small-card" md={6}>
+                                        <div className="card">
+                                            <div className="card-body">3</div>
+                                            <div className="card-footer">COMMON</div>
+                                        </div>
+                                    </Col>
+                                    <Col className="avatar-property" md={6}>
+                                        <h6>#1234</h6>
+                                        <span className="reviews"><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingemptymobile2x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile2x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile2x} className="icon" />}/></span>
+                                    </Col>
+                                </Card.Body>
+                            </Card>
+                            <Card className="AvatarCard">
+                                <Card.Img variant="top" src={Avatar1} />
+                                <Card.Body className="Avatarcard-body">
+                                    <Col className="small-card" md={6}>
+                                        <div className="card">
+                                            <div className="card-body">3</div>
+                                            <div className="card-footer">COMMON</div>
+                                        </div>
+                                    </Col>
+                                    <Col className="avatar-property" md={6}>
+                                        <h6>#1234</h6>
+                                        <span className="reviews"><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingemptymobile2x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile2x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile2x} className="icon" />}/></span>
+                                    </Col>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                        <div className="AvatarCards">
+                            <Card className="AvatarCard">
+                                <Card.Img variant="top" src={Avatar1} />
+                                <Card.Body className="Avatarcard-body">
+                                    <Col className="small-card" md={6}>
+                                        <div className="card">
+                                            <div className="card-body">3</div>
+                                            <div className="card-footer">COMMON</div>
+                                        </div>
+                                    </Col>
+                                    <Col className="avatar-property" md={6}>
+                                        <h6>#1234</h6>
+                                        <span className="reviews"><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingemptymobile2x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile2x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile2x} className="icon" />}/></span>
+                                    </Col>
+                                </Card.Body>
+                            </Card>
+                            <Card className="AvatarCard">
+                                <Card.Img variant="top" src={Avatar1} />
+                                <Card.Body className="Avatarcard-body">
+                                    <Col className="small-card" md={6}>
+                                        <div className="card">
+                                            <div className="card-body">3</div>
+                                            <div className="card-footer">COMMON</div>
+                                        </div>
+                                    </Col>
+                                    <Col className="avatar-property" md={6}>
+                                        <h6>#1234</h6>
+                                        <span className="reviews"><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingemptymobile2x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile2x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile2x} className="icon" />}/></span>
+                                    </Col>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                        <div className="AvatarCards">
+                            <Card className="AvatarCard">
+                                <Card.Img variant="top" src={Avatar1} />
+                                <Card.Body className="Avatarcard-body">
+                                    <Col className="small-card" md={6}>
+                                        <div className="card">
+                                            <div className="card-body">3</div>
+                                            <div className="card-footer">COMMON</div>
+                                        </div>
+                                    </Col>
+                                    <Col className="avatar-property" md={6}>
+                                        <h6>#1234</h6>
+                                        <span className="reviews"><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingemptymobile2x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile2x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile2x} className="icon" />}/></span>
+                                    </Col>
+                                </Card.Body>
+                            </Card>
+                            <Card className="AvatarCard">
+                                <Card.Img variant="top" src={Avatar1} />
+                                <Card.Body className="Avatarcard-body">
+                                    <Col className="small-card" md={6}>
+                                        <div className="card">
+                                            <div className="card-body">3</div>
+                                            <div className="card-footer">COMMON</div>
+                                        </div>
+                                    </Col>
+                                    <Col className="avatar-property" md={6}>
+                                        <h6>#1234</h6>
+                                        <span className="reviews"><FaHardHat/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaTshirt/><Rating placeholderRating={1} stop={4} step={1} emptySymbol={<img src={Ratingemptymobile1x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile1x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile1x} className="icon" />}/></span>
+                                        <span className="reviews"><FaSmile/><Rating placeholderRating={1} stop={2} step={1} emptySymbol={<img src={Ratingemptymobile2x} className="icon" />} placeholderSymbol={<img src={Ratingfullmobile2x} className="icon" />}  fullSymbol={<img src={Ratingfullmobile2x} className="icon" />}/></span>
+                                    </Col>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                        {/* <div className="AvatarCards">
+                            <Card className="AvatarCard">
                                 <Card.Img variant="top" src={Avatar1} />
                                 <Card.Body className="Avatarcard-body">
                                     <Col className="small-card" md={6}>
@@ -327,7 +475,7 @@ function Rarity() {
                                     </Col>
                                 </Card.Body>
                             </Card>
-                            <Card style={{ width: '20rem' }} className="AvatarCard">
+                            <Card className="AvatarCard">
                                 <Card.Img variant="top" src={Avatar1} />
                                 <Card.Body className="Avatarcard-body">
                                     <Col className="small-card" md={5}>
@@ -344,7 +492,7 @@ function Rarity() {
                                     </Col>
                                 </Card.Body>
                             </Card>
-                            <Card style={{ width: '20rem' }} className="AvatarCard">
+                            <Card className="AvatarCard">
                                 <Card.Img variant="top" src={Avatar1} />
                                 <Card.Body className="Avatarcard-body">
                                     <Col className="small-card" md={5}>
@@ -361,7 +509,7 @@ function Rarity() {
                                     </Col>
                                 </Card.Body>
                             </Card>
-                            <Card style={{ width: '20rem' }} className="AvatarCard">
+                            <Card className="AvatarCard">
                                 <Card.Img variant="top" src={Avatar1} />
                                 <Card.Body className="Avatarcard-body">
                                     <Col className="small-card" md={5}>
@@ -378,7 +526,7 @@ function Rarity() {
                                     </Col>
                                 </Card.Body>
                             </Card>
-                            <Card style={{ width: '20rem' }} className="AvatarCard">
+                            <Card className="AvatarCard">
                                 <Card.Img variant="top" src={Avatar1} />
                                 <Card.Body className="Avatarcard-body">
                                     <Col className="small-card" md={5}>
@@ -395,7 +543,7 @@ function Rarity() {
                                     </Col>
                                 </Card.Body>
                             </Card>
-                            <Card style={{ width: '20rem' }} className="AvatarCard">
+                            <Card className="AvatarCard">
                                 <Card.Img variant="top" src={Avatar1} />
                                 <Card.Body className="Avatarcard-body">
                                     <Col className="small-card" md={5}>
@@ -412,7 +560,7 @@ function Rarity() {
                                     </Col>
                                 </Card.Body>
                             </Card>
-                            <Card style={{ width: '20rem' }} className="AvatarCard">
+                            <Card className="AvatarCard">
                                 <Card.Img variant="top" src={Avatar1} />
                                 <Card.Body className="Avatarcard-body">
                                     <Col className="small-card" md={5}>
@@ -429,7 +577,7 @@ function Rarity() {
                                     </Col>
                                 </Card.Body>
                             </Card>
-                            <Card style={{ width: '20rem' }} className="AvatarCard">
+                            <Card className="AvatarCard">
                                 <Card.Img variant="top" src={Avatar1} />
                                 <Card.Body className="Avatarcard-body">
                                     <Col className="small-card" md={5}>
@@ -446,7 +594,8 @@ function Rarity() {
                                     </Col>
                                 </Card.Body>
                             </Card>
-                        </div> 
+                        </div>  */}
+                        
                     </div><hr/>
                     <div className="Chart-section">                    
                         <div className="Chart-section-title">

@@ -117,33 +117,46 @@
 
 .Rarity .Rarity-mobile .Section-body .AvatarCards {
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .Rarity .Rarity-mobile .Section-body .AvatarCards .AvatarCard {
-    margin: auto;
+    margin: 0 0.25rem;
+}
+
+.Rarity .Rarity-mobile .Section-body .AvatarCards .AvatarCard .card-body {
+    padding: 0.5rem ;
 }
 
 .Rarity .Rarity-main .Section-body .AvatarCards:last-child {
     margin-top: 10px;
 }
 
-.Rarity .Rarity-main .Section-body .AvatarCard,
-.Rarity .Rarity-mobile .Section-body .AvatarCard {
+.Rarity .Rarity-main .Section-body .AvatarCard {
     border-radius: 2.25rem;
+}
+
+.Rarity .Rarity-mobile .Section-body .AvatarCard {
+    border-radius: 0.75rem;
+    width: 80%;
 }
 
 .Rarity .Rarity-mobile .Section-body .AvatarCards .AvatarCard {
     margin-bottom: 10px;
 }
 
-.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .card,
-.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .card {
+.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .card {
     border: none;
     width: 90%;
 }
 
-.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .card-body,
-.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .card-body {
+.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .card {
+    border: none;
+    width: 100%;
+}
+
+.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .card-body {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
@@ -152,6 +165,18 @@
     border-radius: 20px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .card-body {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: #16132f;
+    background: #E7E7E9;
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 1rem 0;
 }
 
 .Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .card-footer {
@@ -165,13 +190,14 @@
 }
 
 .Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .card-footer {
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 800;
     color: white;
     background: #16132e;
-    border-radius: 20px;
+    border-radius: 5px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    padding: 0.25rem 0.1rem;
 }
 
 .Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .small-card {
@@ -185,15 +211,33 @@
     justify-content: space-between;
 }
 
-.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .avatar-property h6,
-.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .avatar-property h6 {
+.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .avatar-property h6 {
     font-size: 40px;
     font-weight: 900;
 }
 
-.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .avatar-property svg,
-.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .avatar-property svg {
+.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .avatar-property h6 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .avatar-property svg {
     margin-right: 10px;
+}
+
+.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .avatar-property svg {
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .avatar-property span.reviews {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .avatar-property span span {
+    /* width: 20%; */
 }
 
 .Rarity .Rarity-main hr,
@@ -340,7 +384,8 @@
 
 .Rarity .Rarity-mobile .Table-section .card .card-body .table-body .table tr td tr td:last-child {
     text-align: right;
-    color: black;
+    color: white;
+    font-weight: bold;
 }
 
 .Rarity .Rarity-mobile .Table-section .card .card-body .table-body .table tbody tr:last-child {

@@ -30,7 +30,7 @@ function Store() {
         },
         mobile: {
           breakpoint: { max: 464, min: 0 },
-          items: 1
+          items: 2
         }
       };
 
@@ -45,7 +45,7 @@ function Store() {
                 </Container>  
                 <Container>
                     <Carousel responsive={responsive} autoPlay={true}>
-                        <Card style={{ width: '18rem', margin : 'auto' }}>
+                        <Card style={{  margin : '10px' }}>
                             <Card.Body className="show-body">
                                 <Card.Title><img src={Item1} alt="Item1"/></Card.Title>  
                                 <Card.Subtitle>10 X TRADING<br/>CARD PACKS</Card.Subtitle>                               
@@ -54,7 +54,7 @@ function Store() {
                                 <Button>BUY NOW</Button>
                             </Card.Body>
                         </Card>
-                        <Card style={{ width: '18rem', margin : 'auto' }}>
+                        <Card style={{  margin : '10px' }}>
                             <Card.Body className="show-body">
                                 <Card.Title><img src={Item1} alt="Item1"/></Card.Title>  
                                 <Card.Subtitle>10 X TRADING<br/>CARD PACKS</Card.Subtitle>                               
@@ -63,7 +63,7 @@ function Store() {
                                 <Button>BUY NOW</Button>
                             </Card.Body>
                         </Card>
-                        <Card style={{ width: '18rem', margin : 'auto' }}>
+                        <Card style={{  margin : '10px' }}>
                             <Card.Body className="show-body">
                                 <Card.Title><img src={Item1} alt="Item1"/></Card.Title>  
                                 <Card.Subtitle>10 X TRADING<br/>CARD PACKS</Card.Subtitle>                               
@@ -72,7 +72,7 @@ function Store() {
                                 <Button>BUY NOW</Button>
                             </Card.Body>
                         </Card>
-                        <Card style={{ width: '18rem', margin : 'auto' }}>
+                        <Card style={{  margin : '10px' }}>
                             <Card.Body className="show-body">
                                 <Card.Title><img src={Item2} alt="Item1"/></Card.Title>  
                                 <Card.Subtitle>10 X TRADING<br/>CARD PACKS</Card.Subtitle>                               
@@ -81,7 +81,7 @@ function Store() {
                                 <Button>BUY NOW</Button>
                             </Card.Body>
                         </Card>
-                        <Card style={{ width: '18rem', margin : 'auto' }}>
+                        <Card style={{  margin : '10px' }}>
                             <Card.Body className="show-body">
                                 <Card.Title><img src={Item2} alt="Item1"/></Card.Title>  
                                 <Card.Subtitle>10 X TRADING<br/>CARD PACKS</Card.Subtitle>                               

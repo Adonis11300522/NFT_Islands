@@ -29,6 +29,14 @@
     color: #171430;
 }
 
+.Community .Community-main-mobile .community-link a.nav-link svg {
+    font-size: 80px;
+    background: white;
+    padding: 20px;
+    border-radius: 50%;
+    color: #171430;
+}
+
 .Community .Community-main .community-link a.nav-link svg:hover {
     background: #6128BF;
     color: white;

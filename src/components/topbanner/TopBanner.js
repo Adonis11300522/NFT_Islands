@@ -1,6 +1,7 @@
 import React from "react";
 import './TopBanner.css';
 import {Container, Row, Form, Col,  Button } from 'react-bootstrap'
+import bg_island from './assets/bg_island.png';
 import topleft from './assets/bg_island1.png';
 import bottomleft from './assets/bg_island2.png';
 import topright from './assets/bg_island3.png';
@@ -10,7 +11,7 @@ function TopBanner() {
     return ( 
         <div>
             <div className="TopBanner">   
-                <Container className="text-slide">
+                <Container className="text-slide pt-5">
                     <h1>WELCOME<br/>TO <span>NFT</span> ISLANDS</h1>
                     <p>Sed ut perspiciatis unde omnis natus error sit<br/>voluptatem accusantium doloremque laudantium</p>
                     <Form>
@@ -37,17 +38,19 @@ function TopBanner() {
                             </Col>
                         </Row>
                     </Form>
-                </Container>      
-                <div className="animate-image">
+                    <div className="animate-image container">
                     <Row>
                         <Col sm={1} className="topleft"><img src={topleft} alt="topleft"/></Col>
-                        <Col sm={1} className="topright"><img src={topright} alt="topright"/></Col>
+                        <Col sm={5} className="topright"><img src={topright} alt="topright"/></Col>
                     </Row>
                     <Row>
                         <Col sm={2} className="bottomleft"><img src={bottomleft} alt="bottomleft"/></Col>
                         <Col sm={4} className="bottomright"><img src={bottomright} alt="bottomright"/></Col>
                     </Row>
                 </div>   
+                </Container> 
+                {/* <img src={bg_island} alt="topleft"/>      */}
+                
                 {/* <Container>
                     <h1>WELCOM<br/>TO <span>NFT</span> ISLANDS</h1>\
                     <p>Sed ut perspiciatis unde omnis natus error sit<br/>voluptatem accusantium doloremque laudantium</p>

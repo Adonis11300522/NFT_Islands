@@ -12,7 +12,11 @@ function Downloads() {
         <div className="Downloads">   
             <div className="Downloads-main">
                 <Container>
-                    <Row>
+                    <div className="Downloads-main-title mb-5">
+                        <h3>NFT ISLANDS DOWNLOADS</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit<br/> voluptatem accusantium doloremque laudantium.</p>
+                    </div> 
+                    <Row className="mb-5">
                     <Col>
                         <Card>
                             <Card.Body>                            
@@ -45,7 +49,10 @@ function Downloads() {
             </div>   
             <div className="Downloads-mobile">
                 <Container>
-                <Col>
+                    <div className="Downloads-main-title mb-5">
+                        <h3>NFT ISLANDS<br/>DOWNLOADS</h3>
+                    </div> 
+                    <Col>
                         <Card>
                             <Card.Body>                            
                                 <Card.Subtitle className="mb-2 text-muted"><img src={Whitepaper} alt="Whitepaper"/></Card.Subtitle>

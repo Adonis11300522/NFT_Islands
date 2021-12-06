@@ -1,12 +1,13 @@
 .TopBanner {
-    height: calc(100vh - 72px);
+    /* height: calc(100vh - 72px); */
     position: relative;
-    background-image: linear-gradient(#1a1738, #16132e);
+    /* background-image: linear-gradient(#1a1738, #16132e); */
 }
 
 .TopBanner .text-slide {
     position:relative;
     z-index:10;
+    margin-bottom: 15%;
 }
 
 .TopBanner .animate-image {
@@ -23,6 +24,29 @@
     justify-content: space-between;
 }
 
+.TopBanner .topleft {
+    width: 12%;
+    position: relative;
+    left: -150px;
+}
+
+.TopBanner .topright {
+    position: relative;
+    right: -39px;
+    top: 90px;
+}
+
+
+.TopBanner .animate-image .bottomleft {
+    position: relative;
+    left: -160px;
+}
+
+.TopBanner .animate-image .bottomright {
+    position: relative;
+    right: -39px;
+}
+
 .TopBanner .animate-image .topright,
 .TopBanner .animate-image .bottomleft {
     align-self: center;
@@ -32,12 +56,11 @@
 }
 
 .TopBanner .animate-image .row:first-child {
-    margin-bottom: 20%;
+    margin-bottom: 12%;
 }
 
 .TopBanner .animate-image {
     position: absolute;
-    overflow: hidden;
 }
 
 .TopBanner .container h1{

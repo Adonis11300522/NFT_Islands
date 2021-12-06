@@ -26,11 +26,6 @@ function Community() {
                     <NavLink href="#"><FaDiscord/></NavLink>
                     <NavLink href="#"><FaTelegramPlane/></NavLink>
                     <NavLink href="#"><FaTelegramPlane/></NavLink>
-                    {/* <NavLink href="#"><img src={Twitter} alt="Twitter"/></NavLink>
-                    <NavLink href="#"><img src={Fb} alt="Fb"/></NavLink>   
-                    <NavLink href="#"><img src={Discord} alt="Discord"/></NavLink>
-                    <NavLink href="#"><img src={Telegram} alt="Telegram"/></NavLink>
-                    <NavLink href="#"><img src={Medium} alt="Medium"/></NavLink> */}
                 </Container>
             </div>     
             <div className="Community-main-mobile">
@@ -39,14 +34,14 @@ function Community() {
                 <h3>JOIN OUR COMMUNITY</h3>                    
                 </Container>  
                 <Container className="community-link">
-                    <NavLink href="#"></NavLink>
-                    <NavLink href="#"><img src={Twitter} alt="Twitter"/></NavLink>
-                    <NavLink href="#"><img src={Fb} alt="Fb"/></NavLink>  
+                    <NavLink href="#"><FaInstagram/></NavLink>
+                    <NavLink href="#"><FaTwitter/></NavLink>
+                    <NavLink href="#"><FaFacebookF/></NavLink>
                 </Container>
-                <Container className="community-link">                     
-                    <NavLink href="#"><img src={Discord} alt="Discord"/></NavLink>
-                    <NavLink href="#"><img src={Telegram} alt="Telegram"/></NavLink>
-                    <NavLink href="#"><img src={Medium} alt="Medium"/></NavLink>
+                <Container className="community-link">
+                    <NavLink href="#"><FaDiscord/></NavLink>
+                    <NavLink href="#"><FaTelegramPlane/></NavLink>
+                    <NavLink href="#"><FaTelegramPlane/></NavLink>
                 </Container>
             </div>                           
         </div>

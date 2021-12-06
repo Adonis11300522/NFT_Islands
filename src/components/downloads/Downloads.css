@@ -10,6 +10,22 @@
     margin-bottom: 20px;
 }
 
+.Downloads .Downloads-main p {
+    color: white;
+    text-align: center;
+}
+.Downloads .Downloads-main h3 {
+    font-weight: 900;
+    color: #49ebc4;
+    text-align: center;
+}
+
+.Downloads .Downloads-mobile .Downloads-main-title h3 {
+    font-weight: 900;
+    color: #49ebc4;
+    text-align: left;
+}
+
 .Downloads .Downloads-main .card .card-body,
 .Downloads .Downloads-mobile .card .card-body {
     background: #25174B;

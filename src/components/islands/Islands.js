@@ -26,14 +26,14 @@ function Islands() {
                 <Container className="Section-body">
                     <div className="odd-row">
                         <Col md={6} sm={12}>
-                            <strong>YEEN<br/>ISLANDS</strong>
+                            <strong>SIMIA<br/>ISLAND</strong>
                             <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                         </Col>
                         <Col md={6} sm={12}><img src={Monkey} alt="Monkey"/></Col>
                     </div>
                     <div className="even-row">
                         <Col md={6} sm={12}>
-                            <strong>YEEN<br/>ISLANDS</strong>
+                            <strong>STRIPE<br/>ISLAND</strong>
                             <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                         </Col>
                         <Col md={6} sm={12}><img src={Zebra} alt="Zebra"/></Col>
@@ -47,49 +47,49 @@ function Islands() {
                     </div>
                     <div className="even-row">
                         <Col md={6} sm={12}>
-                            <strong>YEEN<br/>ISLANDS</strong>
+                            <strong>ESCOBA<br/>ISLAND</strong>
                             <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                         </Col>
                         <Col md={6} sm={12}><img src={Warthog} alt="Warthog"/></Col>
                     </div>
                     <div className="odd-row">
                         <Col md={6} sm={12}>
-                            <strong>YEEN<br/>ISLANDS</strong>
+                            <strong>PRIDE<br/>ISLAND</strong>
                             <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                         </Col>
                         <Col md={6} sm={12}><img src={Lion} alt="Lion"/></Col>
                     </div>
                     <div className="even-row">
                         <Col md={6} sm={12}>
-                            <strong>YEEN<br/>ISLANDS</strong>
+                            <strong>TUSK<br/>ISLAND</strong>
                             <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                         </Col>
                         <Col md={6} sm={12}><img src={Elephant} alt="Elephant"/></Col>
                     </div>
                     <div className="odd-row">
                         <Col md={6} sm={12}>
-                            <strong>YEEN<br/>ISLANDS</strong>
+                            <strong>JIAO<br/>ISLAND</strong>
                             <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                         </Col>
                         <Col md={6} sm={12}><img src={Rhino} alt="Rhino"/></Col>
                     </div>
                     <div className="even-row">
                         <Col md={6} sm={12}>
-                            <strong>YEEN<br/>ISLANDS</strong>
+                            <strong>MBIO<br/>ISLAND</strong>
                             <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                         </Col>
                         <Col md={6} sm={12}><img src={Cheetah} alt="Cheetah"/></Col>
                     </div>
                     <div className="odd-row">
                         <Col md={6} sm={12}>
-                            <strong>YEEN<br/>ISLANDS</strong>
+                            <strong>BAMBA<br/>ISLAND</strong>
                             <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                         </Col>
                         <Col md={6} sm={12}><img src={Panda} alt="Panda"/></Col>
                     </div>
                     <div className="even-row">
                         <Col md={6} sm={12}>
-                            <strong>YEEN<br/>ISLANDS</strong>
+                            <strong>DUBBLY<br/>ISLAND</strong>
                             <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                         </Col>
                         <Col md={6} sm={12}><img src={Koala} alt="Koala"/></Col>
@@ -104,52 +104,52 @@ function Islands() {
                 </Container>
                 <Container className="Section-body">
                     <Col sm={12}>
-                        <strong>YEEN<br/>ISLANDS</strong>
+                        <strong>SIMIA<br/>ISLAND</strong>
                         <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                     </Col>
                     <Col sm={12} className="even-row"><img src={Monkey} alt="Monkey"/></Col>
                     <Col sm={12}>
-                        <strong>YEEN<br/>ISLANDS</strong>
+                        <strong>STRIPE<br/>ISLAND</strong>
                         <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                     </Col>
                     <Col sm={12} className="even-row"><img src={Zebra} alt="Zebra"/></Col>
                     <Col sm={12}>
-                        <strong>YEEN<br/>ISLANDS</strong>
+                        <strong>YEEN<br/>ISLAND</strong>
                         <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                     </Col>
                     <Col sm={12} className="even-row"><img src={Hiena} alt="Hiena"/></Col>
                     <Col sm={12}>
-                        <strong>YEEN<br/>ISLANDS</strong>
+                        <strong>ESCOBA<br/>ISLAND</strong>
                         <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                     </Col>
                     <Col sm={12} className="even-row"><img src={Warthog} alt="Warthog"/></Col>
                     <Col sm={12}>
-                        <strong>YEEN<br/>ISLANDS</strong>
+                        <strong>PRIDE<br/>ISLAND</strong>
                         <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                     </Col>
                     <Col sm={12} className="even-row"><img src={Lion} alt="Lion"/></Col>
                     <Col sm={12}>
-                        <strong>YEEN<br/>ISLANDS</strong>
+                        <strong>TUSK<br/>ISLAND</strong>
                         <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                     </Col>
                     <Col sm={12} className="even-row"><img src={Elephant} alt="Elephant"/></Col>
                     <Col sm={12}>
-                        <strong>YEEN<br/>ISLANDS</strong>
+                        <strong>JIAO<br/>ISLAND</strong>
                         <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                     </Col>
                     <Col sm={12} className="even-row"><img src={Rhino} alt="Rhino"/></Col>
                     <Col sm={12}>
-                        <strong>YEEN<br/>ISLANDS</strong>
+                        <strong>MBIO<br/>ISLAND</strong>
                         <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                     </Col>
                     <Col sm={12} className="even-row"><img src={Cheetah} alt="Cheetah"/></Col>
                     <Col sm={12}>
-                        <strong>YEEN<br/>ISLANDS</strong>
+                        <strong>BAMBA<br/>ISLAND</strong>
                         <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                     </Col>
                     <Col sm={12} className="even-row"><img src={Panda} alt="Panda"/></Col>
                     <Col sm={12}>
-                        <strong>YEEN<br/>ISLANDS</strong>
+                        <strong>DUBBLY<br/>ISLAND</strong>
                         <p>An island of craggy hills and rocks and covered in non-engineered <br/> herds of wild antelope, Yeen is most well known for their meat and<br/> their music. Home to the Hyena ‘Tribe’ of humanimals, created<br/> from the few remaining hyenas and the human genes of Quentin<br/> Trent, the big game hunter.</p>
                     </Col>
                     <Col sm={12} className="even-row"><img src={Koala} alt="Koala"/></Col>

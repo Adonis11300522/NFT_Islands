@@ -36,6 +36,7 @@
 .Islands .Islands-main .Section-body .even-row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .Islands .Islands-main .Section-body .even-row {
