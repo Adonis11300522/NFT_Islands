@@ -9,6 +9,7 @@ import Discord from './assets/logo_discord.png';
 import Fb from './assets/logo_fb.png';
 import Twitter from './assets/logo_twitter.png';
 import { FaInstagram, FaTwitter, FaFacebookF, FaDiscord, FaTelegramPlane} from "react-icons/fa";
+import { BsMedium } from "react-icons/bs";
 
 function Community() {
     return ( 
@@ -19,13 +20,13 @@ function Community() {
                 <h5>JOIN OUR</h5>
                 <h3>JOIN OUR COMMUNITY</h3>                    
                 </Container>  
-                <Container className="community-link">
+                <Container className="community-link mb-5">
                     <NavLink href="#"><FaInstagram/></NavLink>
                     <NavLink href="#"><FaTwitter/></NavLink>
                     <NavLink href="#"><FaFacebookF/></NavLink>
                     <NavLink href="#"><FaDiscord/></NavLink>
                     <NavLink href="#"><FaTelegramPlane/></NavLink>
-                    <NavLink href="#"><FaTelegramPlane/></NavLink>
+                    <NavLink href="#"><BsMedium/></NavLink>
                 </Container>
             </div>     
             <div className="Community-main-mobile">

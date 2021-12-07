@@ -3,8 +3,8 @@ import {Container, Row, Col, Button} from 'react-bootstrap';
 import Aboutwave from './assets/aboutwave.png';
 import Aboutbanner from './assets/aboutbanner.png';
 import './About.css';
-import Opensea from './assets/opensea.png';
-import Raritytools from './assets/rarity.png';
+import Opensea from './assets/opensea.svg';
+import Raritytools from './assets/rarity.svg';
 
 function About() {
     return ( 
@@ -18,7 +18,7 @@ function About() {
                 <Container>
                     <h4>WHAT IS THE NFT ISLANDS</h4>
                     <Row className="About-body">
-                        <Col className="About-text mt-4">
+                        <Col className="About-text mt-4 col-md-8">
                             <Row>
                                 <Col>By the start of the 22nd Century, it was clear that many, if not most, of the rare and majestic animals on Earth were going extinct. A visionary scientist by the name of Dr Thomas Orion Morrow proposed a grand experiment to the United Nations, whereby transgenic coding would be taken from the human genome and applied across the animal kingdom to preserve and protect every species from extinction.
 
@@ -42,7 +42,7 @@ function About() {
                                     </Col>
                             </Row>
                         </Col>
-                        <Col className="Aboutbanner"><img src={Aboutbanner} alt="Aboutbanner"/></Col>
+                        <Col className="Aboutbanner col-md-4"><img src={Aboutbanner} alt="Aboutbanner"/></Col>
                     </Row>
                     <h4 className="mt-4">VIEW OUR COLLECTION</h4>
                     <div className="AboutBtn mt-3">

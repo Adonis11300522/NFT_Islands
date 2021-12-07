@@ -125,6 +125,10 @@
     margin: 0 0.25rem;
 }
 
+.Rarity .Rarity-main .Section-body .AvatarCards .AvatarCard {
+    margin: 5px;
+}
+
 .Rarity .Rarity-mobile .Section-body .AvatarCards .AvatarCard .card-body {
     padding: 0.5rem ;
 }
@@ -134,7 +138,11 @@
 }
 
 .Rarity .Rarity-main .Section-body .AvatarCard {
-    border-radius: 2.25rem;
+    border-radius: 1.25rem;
+}
+
+.Rarity .Rarity-main .Section-body .AvatarCard .card-body {
+    padding:0.25rem
 }
 
 .Rarity .Rarity-mobile .Section-body .AvatarCard {
@@ -180,13 +188,17 @@
 }
 
 .Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .card-footer {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 800;
     color: white;
     background: #16132e;
     border-radius: 20px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+}
+
+.Rarity .Rarity-main .Section-body .AvatarCards .Avatarcard-body .small-card {
+    margin: auto;
 }
 
 .Rarity .Rarity-mobile .Section-body .AvatarCards .Avatarcard-body .card-footer {
@@ -260,7 +272,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 40%;
+    width: 44%;
 }
 
 .Rarity .Rarity-main .Chart-section .Chart-section-title h3 {

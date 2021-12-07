@@ -2,3 +2,7 @@
   text-align: center;
   background: #16132e;
 }
+
+.container {
+  max-width: 1140px !important;
+}

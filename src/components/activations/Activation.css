@@ -30,6 +30,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: start;
 }
 
 .Activation .Activation-main .Activation-body .Activation-body-text h6 {
@@ -57,12 +58,17 @@
 }
 
 .Activation .Activation-main .Activation-body .Activation-body-img img {
-    width: 70%;
+    width: 90%;
     text-align: right;
 }
 
 @media  screen and (max-width:991px) {
     .Activation .Activation-main .Activation-body .Activation-body-img {
         display: none;
+    }
+
+    .Activation .Activation-main h5,
+    .Activation .Activation-main h3 {
+        text-align: left;
     }
 }

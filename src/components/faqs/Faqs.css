@@ -67,6 +67,10 @@
     margin-right: 5%;
 }
 
+.Faqs .Faqs-main hr {
+    color: lightgray;
+}
+
 @media screen and (max-width:991px) {
     .Faqs .Faqs-main .accordion .accordion-item .accordion-button {
         background: none;
@@ -80,5 +84,10 @@
 
     .Faqs .Faqs-main .accordion .accordion-item .accordion-body p{
         width: 100%;
+    }
+
+    .Faqs .Faqs-main h5, 
+    .Faqs .Faqs-main h3 {        
+        text-align: left;
     }
 }

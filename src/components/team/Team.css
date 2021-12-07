@@ -12,7 +12,37 @@
 .Team .Team-main-mobile  h5 {
     font-weight: 900;
     color: white;
+    padding: 0 1rem;
 }
+
+.Team .Team-main .team-members .team-member {
+    text-align: left;
+}
+
+.Team .Team-main .team-members .team-member h5 {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.Team .Team-main .team-members .team-member p {
+    padding: 0 1rem;
+    text-align: left;
+}
+
+.Team .Team-main .team-members .team-member a {
+    text-align: left;
+    color: #1DA1F2;
+}
+
+.Team .Team-main .team-members .team-member a svg {
+    margin-right: 10px;
+}
+
+.Team .Team-main-mobile  h5,
+.Team .Team-main-mobile .Team-main-title h3 {
+    text-align: left;
+}
+
 
 
 .Team .Team-main .Team-main-title h3,
@@ -43,6 +73,11 @@
 
 .Team .Team-main-mobile .team-members .team-member {
     width: 50%;
+    text-align: left;
+}
+
+.Team .Team-main-mobile .team-members .team-member a{
+    padding-left: 0;
 }
 
 .Team .Team-main-mobile .team-members {

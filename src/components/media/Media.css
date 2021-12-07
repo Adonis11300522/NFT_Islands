@@ -21,17 +21,52 @@
     margin-bottom: 5%;
 }
 
-.Media .Media-main .react-multi-carousel-list ul li a img,
-.Media .Media-main-mobile .react-multi-carousel-list ul li a img {
+.Media .Media-main .sc-bdVaJa.imYUvI a img {
     width: 100%;
 }
 
-.Media .Media-main .react-multi-carousel-list ul li a .card-text {
+.Media .Media-main .sc-bdVaJa.imYUvI a .card-text {
     font-weight: 900;
     color: black;
 }
 
+.Media .Media-main .sc-bdVaJa.imYUvI .sc-ifAKCX button{
+    background: #49ebc4;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.25rem 0.65rem;
+}
+
+.Media .Media-main .sc-bdVaJa.imYUvI .sc-ifAKCX.dFFQiB {
+    right: -100px;
+}
+
+.Media .Media-main .sc-bdVaJa.imYUvI .sc-ifAKCX.kaHnvc {
+    left: -100px;
+}
+
+.Media .Media-main .sc-bdVaJa.imYUvI a {
+    padding: 0;
+}
+
 .Media .Media-main .card {
     text-align: center;
+    border-radius: 1.25rem;
+}
+
+@media screen and (max-width:991px) {
+    .Media .Media-main .Madia-main-desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width:991px) {
+    .Media .Media-main .Madia-main-mobile {
+        display: none;
+    }
 }
 

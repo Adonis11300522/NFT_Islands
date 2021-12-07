@@ -64,6 +64,7 @@
 
 .About .About-main h4.mt-4 {
     text-align: center;
+    margin-top: 100px !important;
 }
 
 .About .About-mobile h4.mt-4 {
@@ -76,7 +77,7 @@
 }
 
 .About .About-main .About-body .Aboutbanner img {
-    width: 80%;
+    width: 100%;
 }
 
 .About .About-mobile .About-body .Aboutbanner img  {
@@ -122,8 +123,12 @@
     background: #901749;
 }
 
-.About .About-main .AboutBtn button:hover {
-    transform: scale(1.2);
+.About .About-main .AboutBtn button:last-child:hover {
+    background: #901749a4;
+}
+
+.About .About-main .AboutBtn button:first-child:hover {
+    background: #16508baf;
 }
 
 .About .About-main .AboutBtn button span,

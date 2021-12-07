@@ -2,7 +2,8 @@
     width: 100%;
 }
 
-.Store .Store-main {
+.Store .Store-main,
+.Store .Store-main-mobile {
     background-image: linear-gradient(#1a1637, #16132e);
     text-align: left;
     padding: 5% 0;
@@ -14,10 +15,23 @@
     text-align: center;
 }
 
+.Store .Store-main-mobile h5 {
+    font-weight: 900;
+    color: white;
+    text-align: left;
+}
+
 .Store .Store-main p {
     font-size: 16px;
     color: white;
     text-align: center;
+    margin-bottom: 5%;
+}
+
+.Store .Store-main-mobile p {
+    font-size: 15px;
+    color: white;
+    text-align: left;
     margin-bottom: 5%;
 }
 
@@ -28,11 +42,18 @@
     text-align: center;
 }
 
+.Store .Store-main-mobile h3 {
+    font-weight: 900;
+    color:#49ebc4;
+    text-align: left;
+}
+
 .Store .Store-main h3 {
     font-size: 40px;
 }
 
-.Store .Store-main .react-multi-carousel-list ul li img {
+.Store .Store-main .sc-bdVaJa .card .show-body.card-body .card-title img,
+.Store .Store-main-mobile .sc-bdVaJa .card .show-body.card-body .card-title img {
     width: 100%;
 }
 
@@ -41,26 +62,67 @@
     border-radius: 20px;
 }
 
-.Store .Store-main .react-multi-carousel-list ul li .card .card-subtitle {
+.Store .Store-main .sc-bdVaJa .card .show-body.card-body .card-subtitle {
     font-size: 20px;
     font-weight: 900;
     color: #171431;
+    text-align: center;
 }
 
-.Store .Store-main .react-multi-carousel-list ul li .card .card-text {
+.Store .Store-main-mobile .sc-bdVaJa .card .show-body.card-body .card-subtitle {
+    font-size: 11px;
+    font-weight: 900;
+    color: #171431;
+    text-align: center;
+}
+
+.Store .Store-main .sc-bdVaJa .card .show-body.card-body .card-text {
     font-size: 16px;
+    color: black;
+    text-align: center;
+    margin: 5% 0;
+}
+
+.Store .Store-main-mobile .sc-bdVaJa .card .show-body.card-body .card-text {
+    font-size: 11px;
     color: black;
     text-align: center;
 }
 
-.Store .Store-main .react-multi-carousel-list ul li .card .card-title {
+.Store .Store-main .sc-bdVaJa .card .show-body.card-body .card-title {
     font-size: 40px;
     color: #6128BF;
     font-weight: 900;
+    text-align: center;
 }
 
-.Store .Store-main .react-multi-carousel-list ul li .card button {
+.Store .Store-main-mobile .sc-bdVaJa .card .show-body.card-body .card-title {
+    font-size: 20px;
+    color: #6128BF;
+    font-weight: 900;
+    text-align: center;
+}
+
+.Store .Store-main .sc-bdVaJa .card .show-body.card-body {
+    text-align: center;
+}
+.Store .Store-main .sc-bdVaJa .card {
+    border-radius: 1.25rem;
+}
+.Store .Store-main .sc-bdVaJa .card .show-body.card-body button {
     font-size: 14px;
+    font-weight: 900;
+    color: white;
+    background: #6128BF;
+    border-radius: 50px;
+    width: 80%;
+    border: none;
+    padding: 5%;
+    margin-top: 20px;
+}
+
+.Store .Store-main-mobile .sc-bdVaJa .card .show-body.card-body button {
+    font-size: 10px;
     font-weight: 900;
     color: white;
     background: #6128BF;
@@ -81,8 +143,44 @@
     margin: 5%;
 }
 
+.Store .Store-main-mobile .sc-bdVaJa.imYUvI {
+    overflow: hidden;
+}
+
+.Store .Store-main-mobile .Social-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5%;
+}
+
 .Store .Store-main .Social-banner div img {
     width: 100%;
+}
+
+.Store .Store-main-mobile .Social-banner div img {
+    width: 70%;
+}
+
+.Store .Store-main .sc-bdVaJa .sc-ifAKCX button {
+    background: #49ebc4;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 0.25rem 0.65rem;
+    font-weight: 900;
+}
+
+.Store .Store-main .sc-bdVaJa .sc-ifAKCX.dFFQiB{
+    right: -100px;
+}
+
+.Store .Store-main .sc-bdVaJa .sc-ifAKCX.kaHnvc{
+    left: -100px;
+}
+
+.Store .Store-main-mobile .sc-bdVaJa .sc-ifAKCX button {
+    display: none;
 }
 
 @media screen and (max-width:991px) {
@@ -100,15 +198,13 @@
         width: 80%;
     }
 
-    .Store .Store-main .react-multi-carousel-list ul li .card .card-subtitle {
-        font-size: 15px;
-        font-weight: 900;
-        color: #171431;
-    }
+    .Store .Store-main {
+        display: none;
+    }    
+}
 
-    .Store .Store-main .react-multi-carousel-list ul li .card .card-title {
-        font-size: 30px;
-        color: #6128BF;
-        font-weight: 900;
-    }
+@media screen and (min-width:991px) {
+    .Store .Store-main-mobile {
+        display: none;
+    }    
 }

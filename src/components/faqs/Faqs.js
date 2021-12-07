@@ -11,7 +11,7 @@ function Faqs() {
             <div className="Faqs-main">
                 <Container>
                     <h5>FREQUENTLY ASKED</h5>
-                    <h3>QUESTIONS</h3> 
+                    <h3>QUESTIONS</h3> <hr/>
                     <Accordion defaultActiveKey="0">
                         <Accordion.Item eventKey="0">
                             <Accordion.Header>WHAT ARE HUMANIMALS? </Accordion.Header>
@@ -20,7 +20,7 @@ function Faqs() {
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam.</p>
                             </Accordion.Body>
                         </Accordion.Item>
-                        <Accordion.Item eventKey="1">
+                        <Accordion.Item eventKey="1"><hr/>
                             <Accordion.Header>HOW TO OBTAIN A HUMANIMAL?</Accordion.Header>
                             <Accordion.Body>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam.</p>

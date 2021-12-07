@@ -8,6 +8,8 @@ import Discord from './assets/logo_discord.png';
 import Fb from './assets/logo_fb.png';
 import Twitter from './assets/logo_twitter.png';
 import Contactpage from '../../pages/Contactpage'
+import { FaInstagram, FaTwitter, FaFacebookF, FaDiscord, FaTelegramPlane, FaTelegram} from "react-icons/fa";
+import { BsMedium } from "react-icons/bs";
 
 import './Footer.css';
 import ReactFlagsSelect from 'react-flags-select';
@@ -24,19 +26,19 @@ function Footer() {
                 <div className="Footer-main">
                     <Container>
                         <Row>
-                            <Col xs={1} md={4} className="Footer-left"><p>2021 NFT Islands (c)</p></Col>
-                            <Col xs={10} md={4} className="Footer-main-center">
+                            <Col xs={1} md={3} className="Footer-left"><p>2021 NFT Islands (c)</p></Col>
+                            <Col xs={10} md={6} className="Footer-main-center">
                                 <h5>JOIN OUR COMMUNITY</h5>
                                 <div className="Footer-main-center-community">
-                                    <span><NavLink href="#"><img src={Insta} alt="logo_insta"/></NavLink></span>
-                                    <span><NavLink href="#"><img src={Twitter} alt="Twitter"/></NavLink></span>
-                                    <span><NavLink href="#"><img src={Fb} alt="Fb"/></NavLink></span>    
-                                    <span><NavLink href="#"><img src={Discord} alt="Discord"/></NavLink></span>
-                                    <span><NavLink href="#"><img src={Telegram} alt="Telegram"/></NavLink></span>
-                                    <span><NavLink href="#"><img src={Medium} alt="Medium"/></NavLink></span>
+                                    <span><NavLink href="#"><FaInstagram/></NavLink></span>
+                                    <span><NavLink href="#"><FaTwitter/></NavLink></span>
+                                    <span><NavLink href="#"><FaFacebookF/></NavLink></span>    
+                                    <span><NavLink href="#"><FaDiscord/></NavLink></span>
+                                    <span><NavLink href="#"><FaTelegramPlane/></NavLink></span>
+                                    <span><NavLink href="#"><BsMedium/></NavLink></span>
                                 </div>
                             </Col>
-                            <Col xs={1} md={4} className="Footer-right">
+                            <Col xs={1} md={3} className="Footer-right">
                                 <ul>
                                     <li><NavLink href="#">Verified smart contract</NavLink></li>
                                     <li><NavLink href="/Terms">Terms of sale</NavLink></li>

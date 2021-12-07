@@ -48,13 +48,18 @@
 
 .Roadmap .Roadmap-main .Roadmap-body .vertical-timeline::before {
     width: 1px;
+    left: 52%;
 }
 
 .Roadmap .Roadmap-main .Roadmap-body .vertical-timeline .vertical-timeline-element-icon {
     width: 1px;
     height: 1px;
-    margin-left: -2px;
+    margin-left: 19px;
     box-shadow: 0px 0px 0px 5px #49ebc4;
+}
+
+.Roadmap .Roadmap-main .Roadmap-body .vertical-timeline .vertical-timeline-element hr {
+    color: lightgray;
 }
 
 .Roadmap .Roadmap-main .Roadmap-body .vertical-timeline .vertical-timeline-element-content {
@@ -71,8 +76,13 @@
     text-align: left;
 }
 
+.Roadmap .Roadmap-main .Roadmap-body .vertical-timeline .vertical-timeline-element-content h3 {
+    font-size: 20px;
+}
+
 .Roadmap .Roadmap-main .Roadmap-body .vertical-timeline .vertical-timeline-element-content p {
     color: white;
+    font-size: 16px;
 }
 
 .Roadmap .Roadmap-main .Roadmap-body .vertical-timeline .vertical-timeline-element:first-child {

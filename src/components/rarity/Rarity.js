@@ -189,7 +189,7 @@ function Rarity() {
                     <div className="Chart-section">
                         <img src={Chartimage} alt="Chartimage"/>
                         <div className="Chart-section-title">
-                        <h3>HOW RARE<br/>IS MY MONKEY?</h3>
+                        <h3 className="pb-3">HOW RARE<br/>IS MY MONKEY?</h3>
                         <p>The Koala Folk humanimals of Dubbly are a surprisingly effective military force, widely feared across the Metaverse. This image is widely disbelieved by those who have met them, but the veterans who have fought them know the truth. The DNA of  Lars Peeterson, bodyguard to Dr Morrow is a part of the Koala Folk now.</p>
                         </div>
                     </div><hr/>
@@ -599,7 +599,7 @@ function Rarity() {
                     </div><hr/>
                     <div className="Chart-section">                    
                         <div className="Chart-section-title">
-                            <h3>HOW RARE<br/>IS MY MONKEY?</h3>
+                            <h3  className="pb-5">HOW RARE<br/>IS MY MONKEY?</h3>
                             <p>The Koala Folk humanimals of Dubbly are a surprisingly effective military force, widely feared across the Metaverse. This image is widely disbelieved by those who have met them, but the veterans who have fought them know the truth. The DNA of  Lars Peeterson, bodyguard to Dr Morrow is a part of the Koala Folk now.</p>
                         </div>
                         <img src={Chartimage} alt="Chartimage"/>
